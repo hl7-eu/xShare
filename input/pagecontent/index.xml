@@ -1,0 +1,39 @@
+<div xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd" lang="en">
+
+
+  <blockquote class="stu-note">
+    <p>The specification herewith documented is a working specification, and may not be used for any implementation purposes. 
+    No liability can be inferred from the use or misuse of this specification, or its consequences.</p>
+  </blockquote>
+
+  <a name="scope"></a>
+  <h3>Scope</h3>
+  <p>
+    Provide access to the artefacts produced by the xShare project for supporting the Yellow Button (aka xShare button) capabilities.
+  </p>
+
+    <blockquote class="dragon">
+<p>
+   Please note that <b>this "container" is not the xShare button X-Bundle</b>
+  </p>
+<p>
+  Please refer to the <a href='https://x-bundles.ehr-exchange-format.eu/xb-1/main.html' > X-Bundle Registry dedicated entry</a> for consulting the xShare button X-Bundle</p>
+  </blockquote>
+
+  <a name="x-versions"></a>
+  <h3>Cross Version Analysis</h3>
+
+{% include cross-version-analysis.xhtml %}
+
+  <a name="global"></a>
+  <h3>Global Profiles</h3>
+
+{% include globals-table.xhtml %}
+
+<a name="ip-statements"></a>
+<h3>IP Statements</h3>
+
+{% include ip-statements.xhtml %}
+
+</div>

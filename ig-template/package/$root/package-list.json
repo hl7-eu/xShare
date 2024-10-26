@@ -1,0 +1,15 @@
+{
+  "package-id" : "hl7.eu.fhir.xpandh.lab",
+  "title" : "XpanDH FHIR IG: Laboratory report",
+  "canonical" : "http://hl7.eu/fhir/ig/xpandh/lab",
+  "introduction" : "This guide describes how the Laboratory Report can be represented for the purpose of the XpanDH project experimantions.",
+  "list" : [
+    {
+      "version" : "current",
+      "desc" : "Continuous Integration Build (latest in version control)",
+      "path" : "http://build.fhir.org/hl7-eu/xpandh/lab",
+      "status" : "ci-build",
+      "current" : true
+    }
+  ]
+}
