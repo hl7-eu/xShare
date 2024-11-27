@@ -50,6 +50,8 @@ pages:
     title: Content
   technical.md:
     title: Technical
+  labeling_process.xml:
+    title: Industry Label Certification Process
   downloads.md:
     title: Downloads
 #  implementation.md:
@@ -90,6 +92,7 @@ menu:
   Application: application.html
   Content: https://x-bundles.ehr-exchange-format.eu/xb-1/content.html
   Technical: technical.html
+  Labeling: labeling_process.html
  # MPD: 
  #   HL7 EU: https://build.fhir.org/ig/hl7-eu/mpd
  #   XpanDH (retired): https://build.fhir.org/ig/hl7-eu/xpandh-mpd

@@ -1,0 +1,85 @@
+<div xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd" lang="en">
+
+<!--     <h3>xShare Industry Label Certification Process</h3> -->
+    <p>The process begins when an organisation needs to certify their health system with the EEHRxF. This step involves the initiation of a formal certification process aimed at ensuring that health systems or applications adhere to the standards and policies defined within the European Electronic Health Record Exchange Format (EEHRxF). At this stage, a decision arises, posing the question: "What is the level of certification needed?" The applicant must decide between two available paths based on the desired rigor of the certification: Level One (Self-assessment) or Level Two (Third-party assessment).</p>
+
+
+    <h3>Level One (Self-assessment) Path</h3>
+    <a name="self-assessment"></a>
+
+    <ol>
+        <li>
+            <strong>Step 1:</strong> Visit the EEHRxF Policy and Standards Hub website. This portal (not online yet) serves as the entry point for applicants seeking self-certification. The website (<a href="https://ehr-exchange-format.eu/" target="_blank">https://ehr-exchange-format.eu/</a>) will provide comprehensive resources, including policy documents, technical specifications, and the self-assessment tool.
+        </li>
+        <li>
+            <strong>Step 2:</strong> Register on the xShare Industry Label self-assessment tool (<a href="https://ehds-testing.ihe-europe.net/" target="_blank">https://ehds-testing.ihe-europe.net/</a>). In the Gazelle environment, a testing tool with a checklist for EEHRxF certification criteria will guide organisations through the process.
+        </li>
+        <li>
+            <strong>Step 3:</strong> Upload relevant data into the system, including technical specifications, documentation, and test results that demonstrate compliance with EEHRxF standards.
+        </li>
+        <li>
+            <strong>Step 4:</strong> The self-assessment tool evaluates the submitted data based on predefined criteria and provides preliminary feedback about compliance status.
+        </li>
+    </ol>
+    <p><strong>Decision Point:</strong> "Is the uploaded data compliant with EEHRxF certification criteria?"</p>
+    <ul>
+        <li><strong>If Yes:</strong>
+            <ol>
+                <li>Receive positive preliminary feedback and comments.</li>
+                <li>Proceed to the quality criteria evaluation phase.</li>
+                <li><strong>Decision Point:</strong> "Does the system comply with the quality assessment criteria?"</li>
+                <li>If compliant: Receive a final positive assessment and certification.</li>
+                <li>If not compliant: Receive negative feedback and guidelines for improvement.</li>
+            </ol>
+        </li>
+        <li><strong>If No:</strong>
+            <ul>
+                <li>Receive negative preliminary feedback and improvement guidelines.</li>
+                <li>The process ends without certification.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Level Two (Third-party Assessment) Path</h3>
+    
+    <a name="3p-assessment"></a>
+
+    <ol>
+        <li>
+            <strong>Step 1:</strong> Contact the Member State-designated organisation responsible for overseeing the certification process.
+        </li>
+        <li>
+            <strong>Step 2:</strong> Submit a formal request for certification, including documentation and payment, to the designated authority (e.g., TIC Salut in Catalonia).
+        </li>
+        <li>
+            <strong>Step 3:</strong> The authority acknowledges receipt of the request and associated payment.
+        </li>
+        <li>
+            <strong>Step 4:</strong> Relevant data is identified for assessment, including technical specifications and functional details.
+        </li>
+        <li>
+            <strong>Step 5:</strong> Provide data in XML format for submission into the assessment tool.
+        </li>
+        <li>
+            <strong>Step 6:</strong> Define IPS validation format and mandatory requirements for compliance.
+        </li>
+        <li>
+            <strong>Step 7:</strong> Submit a declaration of conformity for analysis against EEHRxF standards.
+        </li>
+        <li>
+            <strong>Steps 8-10:</strong> Evaluate structure, functionality, and specific features (e.g., Yellow Button Discharge Circuit) using tools like Gazelle.
+        </li>
+        <li>
+            <strong>Step 11:</strong> Evaluate overall conformance, including the xShare Industry Label as an add-on.
+        </li>
+        <li>
+            <strong>Step 12:</strong> An assessment report is created to highlight any non-conformities.
+        </li>
+    </ol>
+    <p><strong>Decision Point:</strong> "Has the system passed the evaluation criteria, including EEHRxF conformity?"</p>
+    <ul>
+        <li><strong>If Yes:</strong> The authority provides the certification label, concluding the process successfully.</li>
+        <li><strong>If No:</strong> The certification label is not issued, and a conformity report is provided with improvement recommendations.</li>
+    </ul>
+</div>
