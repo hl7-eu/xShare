@@ -1,8 +1,17 @@
 <div xmlns="http://www.w3.org/1999/xhtml"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd" lang="en">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd" lang="en">
 
-<!--     <h3>xShare Industry Label Certification Process</h3> -->
-    <p>The process begins when an organisation needs to certify their health system with the EEHRxF. This step involves the initiation of a formal certification process aimed at ensuring that health systems or applications adhere to the standards and policies defined within the European Electronic Health Record Exchange Format (EEHRxF). At this stage, a decision arises, posing the question: "What is the level of certification needed?" The applicant must decide between two available paths based on the desired rigor of the certification: Level One (Self-assessment) or Level Two (Third-party assessment).</p>
+    <!--     <h3>xShare Industry Label Certification Process</h3> -->
+
+    <p>The following figure provides an overview of the labeling process described below</p>
+
+       <p>The process begins when an organisation needs to certify their health system with the EEHRxF. This step involves the initiation of a formal certification process aimed at ensuring that health systems or applications adhere to the standards and policies defined within the European Electronic Health Record Exchange Format (EEHRxF). At this stage, a decision arises, posing the question: "What is the level of certification needed?" The applicant must decide between two available paths based on the desired rigor of the certification: Level One (Self-assessment) or Level Two (Third-party assessment).</p>
+
+    <div style="text-align: center">    
+        <img src="labeling_process.png" alt="Industry Labeling Process" width="90%"></img>
+    </div>
+
+ 
 
 
     <h3>Level One (Self-assessment) Path</h3>
@@ -22,18 +31,22 @@
             <strong>Step 4:</strong> The self-assessment tool evaluates the submitted data based on predefined criteria and provides preliminary feedback about compliance status.
         </li>
     </ol>
-    <p><strong>Decision Point:</strong> "Is the uploaded data compliant with EEHRxF certification criteria?"</p>
+    <p>
+        <strong>Decision Point:</strong> "Is the uploaded data compliant with EEHRxF certification criteria?"</p>
     <ul>
-        <li><strong>If Yes:</strong>
+        <li>
+            <strong>If Yes:</strong>
             <ol>
                 <li>Receive positive preliminary feedback and comments.</li>
                 <li>Proceed to the quality criteria evaluation phase.</li>
-                <li><strong>Decision Point:</strong> "Does the system comply with the quality assessment criteria?"</li>
+                <li>
+                    <strong>Decision Point:</strong> "Does the system comply with the quality assessment criteria?"</li>
                 <li>If compliant: Receive a final positive assessment and certification.</li>
                 <li>If not compliant: Receive negative feedback and guidelines for improvement.</li>
             </ol>
         </li>
-        <li><strong>If No:</strong>
+        <li>
+            <strong>If No:</strong>
             <ul>
                 <li>Receive negative preliminary feedback and improvement guidelines.</li>
                 <li>The process ends without certification.</li>
@@ -42,7 +55,7 @@
     </ul>
 
     <h3>Level Two (Third-party Assessment) Path</h3>
-    
+
     <a name="3p-assessment"></a>
 
     <ol>
@@ -77,9 +90,12 @@
             <strong>Step 12:</strong> An assessment report is created to highlight any non-conformities.
         </li>
     </ol>
-    <p><strong>Decision Point:</strong> "Has the system passed the evaluation criteria, including EEHRxF conformity?"</p>
+    <p>
+        <strong>Decision Point:</strong> "Has the system passed the evaluation criteria, including EEHRxF conformity?"</p>
     <ul>
-        <li><strong>If Yes:</strong> The authority provides the certification label, concluding the process successfully.</li>
-        <li><strong>If No:</strong> The certification label is not issued, and a conformity report is provided with improvement recommendations.</li>
+        <li>
+            <strong>If Yes:</strong> The authority provides the certification label, concluding the process successfully.</li>
+        <li>
+            <strong>If No:</strong> The certification label is not issued, and a conformity report is provided with improvement recommendations.</li>
     </ul>
 </div>
