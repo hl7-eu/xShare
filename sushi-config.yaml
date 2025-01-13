@@ -19,7 +19,7 @@ publisher:
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
-dependencies:
+#dependencies:
 #  hl7.fhir.uv.ips: 1.1.0 
 #  hl7.fhir.extensions.r5: 4.0.1
 #   hl7.fhir.us.mcode:
@@ -54,6 +54,8 @@ pages:
     title: Industry Label Certification Process
   downloads.md:
     title: Downloads
+  button.md:
+    title: xShare Yellow Button
 #  implementation.md:
 #    title: Implementation Considerations
  #  recommendations.md:
@@ -93,6 +95,7 @@ menu:
   Content: https://x-bundles.ehr-exchange-format.eu/xb-1/content.html
   Technical: technical.html
   Labeling: labeling_process.html
+  Button: button.html
  # MPD: 
  #   HL7 EU: https://build.fhir.org/ig/hl7-eu/mpd
  #   XpanDH (retired): https://build.fhir.org/ig/hl7-eu/xpandh-mpd
