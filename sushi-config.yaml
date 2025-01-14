@@ -43,19 +43,30 @@ pages:
   index.xml:
     title: Home
   business.md:
-    title: Business
+    title: Yellow Button Business overview
   application.md:
-    title: Application
+    title: Yellow Button Application overview
   content.md:
-    title: Content
+    title: Yellow Button Content overview
   technical.md:
-    title: Technical
+    title: Yellow Button Technical overview
   labeling_process.xml:
     title: Industry Label Certification Process
   downloads.md:
     title: Downloads
-  button.md:
-    title: xShare Yellow Button
+#  button.md:
+#    title: xShare Yellow Button
+  yb_sequence_diagram.md:
+    title: Yellow Button Sequence Diagram
+  yb_components.md:
+    title: Yellow Button SW Components  
+  yb_tools.md:
+    title: Yellow Button related Tools
+  about.xml:
+    title: About
+  business-scenarios.md:
+    title: Business Scenarios
+  
 #  implementation.md:
 #    title: Implementation Considerations
  #  recommendations.md:
@@ -90,12 +101,21 @@ menu:
   Home: index.html
   Table of Contents: toc.html
   X-Bundle registry: https://x-bundles.ehr-exchange-format.eu/
-  Business:  business.html
-  Application: application.html
-  Content: https://x-bundles.ehr-exchange-format.eu/xb-1/content.html
-  Technical: technical.html
-  Labeling: labeling_process.html
-  Button: button.html
+  Business:
+    Overview: business.html
+    Scenarios: business-scenarios.html
+    Labeling: labeling_process.html
+  Application: 
+    Overview: application.html
+    Sequence diagram: yb_sequence_diagram.html
+    YB SW Components: yb_components.html
+  Data: content.html
+  Technology: 
+    Overview: technical.html
+    YB related Tools: yb_tools.html  
+  About: about.html
+
+  # Button: button.html
  # MPD: 
  #   HL7 EU: https://build.fhir.org/ig/hl7-eu/mpd
  #   XpanDH (retired): https://build.fhir.org/ig/hl7-eu/xpandh-mpd
