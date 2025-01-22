@@ -1,8 +1,8 @@
-id: hl7.eu.fhir.xshare
-canonical: http://hl7.eu/fhir/ig/xshare # check if this may create issues
-name:  XshareIg
-title: xShare Project
-description: This guide is the entry point for the xShare project FHIR IGs.
+id: hl7.eu.fhir.xshare-yb
+canonical: http://hl7.eu/fhir/ig/xshare-yb # check if this may create issues
+name:  XshareYbIg
+title: xShare Project Yellow Button
+description: This guide documents the xShare Yellow BUtton for the xShare project.
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
