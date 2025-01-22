@@ -66,7 +66,8 @@ pages:
     title: About
   business-scenarios.md:
     title: Business Scenarios
-  
+  get-started-down.md:
+    title: Get Started with the xShare Yellow Button Download
 #  implementation.md:
 #    title: Implementation Considerations
  #  recommendations.md:
@@ -101,6 +102,8 @@ menu:
   Home: index.html
   Table of Contents: toc.html
   X-Bundle registry: https://x-bundles.ehr-exchange-format.eu/
+  Get Started: 
+    Download: get-started-down.html
   Business:
     Overview: business.html
     Scenarios: business-scenarios.html
