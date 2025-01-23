@@ -25,7 +25,7 @@ The download functionality enables the citizen to download their health data (in
 
 The following figure shows the sequence diagram of the Download functionality.
 
-<div style="text-align: center"> <img src="./download_diagram.png" alt="xShare Yellow Button Download" title="xShare Yellow Button Download sequence diagram." style="width:70%"/> </div>
+{% include seq-download.svg %}
 
 #### One-time share
 
@@ -42,7 +42,9 @@ The one-time share (consent) functionality enables the citizen to consent and sh
 
 The following figure shows the sequence diagram of the One-time share functionality.
 
-<div style="text-align: center"> <img src="./ontetime_diagram.png" alt="xShare Yellow Button One-time share" title="xShare Yellow Button One-time share sequence diagram." style="width:70%"/> </div>
+
+{% include seq-one-time.svg %}
+
 
 #### Linked options
 
@@ -61,4 +63,6 @@ The linked options functionality enables the citizen to share their health data 
 
 The following figure shows the sequence diagram of the Linked options functionality.
 
-<div style="text-align: center"> <img src="./linked_diagram.png" alt="xShare Yellow Button Linked options" title="xShare Yellow Button Linked options sequence diagram." style="width:70%"/> </div>
+{% include seq-linked-option.svg %}
+
+

@@ -11,36 +11,39 @@
   <a name="scope"></a>
   <h3>Scope</h3>
   <p>
-    Guide in the implementation and the labeling of the <strong>xShare Yellow Button</strong>, facilitating in the access and adoption of the selected specifications.
+    This guide provides a guidance on how to implement, be conformant with and obtain the <strong>xShare Yellow Button</strong> label, facilitating the access and adoption of the selected specifications.
   </p>
 
 
-  <a name="scope"></a>
+  <a name="get-started"></a>
   <h3>Get Started</h3>
   <p>
-    Do you want to start with the xShare Yellow Button ?  
+    Do you want to start with the xShare Yellow Button ?  Read the :
   </p>
-  <p>Read the :
+  <p>
     <ul>
-      <li>Get Started with the <a href="get-started-down.html">xShare Yellow Button Download</a>
+      <li>
+        <a href="get-started-down.html">Get Started with the xShare Yellow Button Download</a> page.
       </li>
-      <li>Get Started with the <a href="xxxxxxx.html"> xShare Yellow Button One-time share</a>
+      <li>
+        <a href="xxxxxxx.html">Get Started with the xShare Yellow Button One-time share</a> page.
       </li>
     </ul>
   </p>
 
   <p>
-    Do you want to learn more ?  Read this guide... see also the <a href="#how-to-read">How to read</a> section below.
+    Do you want to learn more ?   Read this guide... See also the <a href="#guide-org">Guide Organzation</a> section below.
   </p>
 
+  <a name="guide-org"></a>
+  <h3>Guide Organization</h3>
 
-
-  <a name="how-to-read"></a>
-  <h3>How to read</h3>
-  <p>
-    The content of this guide is organized following the BDAT (business, data, application, and technology) model:
-  </p>
-  <p>
+    The xShare Yellow Button guide includes:
+  <ul>
+    <li>A link to the <a href="https://x-bundles.ehr-exchange-format.eu/"><strong>X-Bundle Registry</strong></a>
+    </li>
+    <li>A set of one page <a href="#get-started"><strong>Get Started</strong></a> guides</li>
+    <li>Finally, detailed information organized following the BDAT (business, data, application, and technology) model are provided:</li>
     <ul>
       <li>
     The <a href="business.html">
@@ -63,7 +66,5 @@
 </a> describes the technology stack and the infrastructure required to support the xShare Yellow Button. This includes technical standards, specifications, and security considerations.
 </li>
 </ul>
-
-</p>
-
+</ul>
 </div>
