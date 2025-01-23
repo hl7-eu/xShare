@@ -1,0 +1,49 @@
+@startuml
+actor Citizen
+participant "xShare Yellow Button" as xShare
+actor "Authorised Data Recipient" as Recipient
+
+==== Citizen authentication (pre-condition) ====
+group #00FF00 Citizen Authentication
+Citizen -[#blue]> Citizen: Citizen Authenticates in the user interface
+end group
+
+==== Search and Select Health Information ====
+group Search and Select Citizen's Health data
+Citizen -> xShare: Search Citizen's Health Data
+activate xShare
+xShare -> xShare: Search Citizen's Health Data
+return: Shows Citizen's available Health Data
+Citizen -> xShare: Selects health data to download or share
+activate xShare
+end group
+
+==== Retrieve and Format Health Information ====
+group Retrieve and Format Citizen's Health data
+xShare-> xShare: Retrieve Citizen's Health Data
+xShare-> xShare: EEHRxF data
+end group
+
+==== Selects Data Transformation Option ====
+opt select Data Transformation option
+Citizen -> xShare: Selects transformation option (human-readable format, \n anonymisation, password protection, translation, digital signature)
+xShare -> xShare: Transformed data
+end opt
+
+==== Linked Options Health Document ====
+
+group Linked Options
+Citizen -> xShare: One-time share Citizen's Health Data
+activate xShare
+xShare -> xShare: Smart Health Link Generated\n **(flag L: long-term)**
+return Shows Smart Health Link
+Citizen -> Recipient: Shares Smart Health Link
+activate Recipient
+Recipient-> xShare: Accesses Smart Health Link
+activate xShare
+xShare -> xShare: Updates Citizen's Health Data
+return Accesses and can download Health Data
+deactivate Recipient
+end group
+
+@enduml
