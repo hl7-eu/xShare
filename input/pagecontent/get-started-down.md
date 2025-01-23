@@ -1,9 +1,17 @@
 
-This page provides a brief guideline on why and how to implement the xShare Yellow Button Download feature in your system, as well as how to prove its conformance.
+**DRAFT TO BE REVISED**
+
+
+This is a brief guideline on why and how to implement the xShare Yellow Button Download feature in your system, and prove its conformance.
+
+To use the Yellow Button Label you have to:
+
+{% include get-the-label.svg %}
 
 ---
 
 ### Why the Yellow Button?
+
 - Enhance your system by offering natural persons a tool to easily access their data in a shareable and standardized format.
 - Comply with the EHDS regulation.
 
@@ -52,7 +60,9 @@ Early implementers might be interested in piloting the following on development 
 
 ---
 
-### Declare Your Conformance
+### Declare and Prove Your Conformance
+
+#### Claim Your Conformance
 
 To claim conformance with the xShare Yellow Button Download, implementers must issue a conformance statement specifying the content specifications  and the optional features supported (e.g. additional download formats, password protected content, psuedoanonymized data;...).
 
@@ -67,6 +77,9 @@ A system conformant to the xShare Yellow Button Download feature must:
 1. Demonstrate that (only) authenticated Natural Persons can search for and select the documents or data they wish to download.
 1. Pass validation tests for each of the declared supported content specifications (e.g., Patient Summary, Laboratory Results).
 1. Ensure that the download content is available in the selected target format.
+
+
+*Detailed test cases are described [here]*
 
 ---
 
