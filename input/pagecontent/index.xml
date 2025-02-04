@@ -44,6 +44,9 @@
     </li>
     <li>A set of one page <a href="#get-started"><strong>Get Started</strong></a> guides</li>
     <li>Finally, detailed information organized following the BDAT (business, data, application, and technology) model are provided:</li>
+
+    {% include bdat.svg %}
+
     <ul>
       <li>
     The <a href="business.html">

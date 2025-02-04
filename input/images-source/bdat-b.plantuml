@@ -1,0 +1,36 @@
+@startuml
+
+skinparam roundcorner 25
+
+skinparam rectangle<<this>> {
+	roundCorner 25
+  BorderThickness 3
+}
+
+Title "Viewpoint"
+
+
+sprite $bProcess jar:archimate/business-process
+sprite $aService jar:archimate/application-service
+sprite $bService jar:archimate/business-service
+sprite $aComponent jar:archimate/application-component
+sprite $tService jar:archimate/technology-service
+sprite $tSystem jar:archimate/technology-system-software
+
+
+rectangle "Business" as bus <<this >>#Business
+rectangle "Application" as app #Application
+rectangle "Data" as data 
+rectangle "Technology" as tech #Technology 
+
+bus -right-> app
+app -right-> data
+data -right-> tech
+
+url of bus is [[business.html]]
+url of app is [[application.html]]
+url of data is [[content.html]]
+url of tech is [[technical.html]]
+
+
+@enduml

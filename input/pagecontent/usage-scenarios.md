@@ -1,8 +1,5 @@
-### Business Scenarios
 
-This page describes a set of business scenarios associated to the xShare yellow button
-
-#### Patient Empowered by His Data: Using It for a Second Opinion
+### Patient Empowered by His Data: Using It for a Second Opinion
 
 - **A patient, Tom, opens the hospital's official mobile app to access his medical records.**
 - Using a secure two-factor authentication process, Tom logs in to the app, confirming his identity.
@@ -16,7 +13,7 @@ This page describes a set of business scenarios associated to the xShare yellow 
 - The seamless interaction leaves Tom confident in managing his healthcare data.
 - This scenario demonstrates how modern EHR systems empower patients with **access, understanding, and control** over their medical records.
 
-#### Patient Aggregating His Data in a Single Place
+### Patient Aggregating His Data in a Single Place
 
 - **Similar to the storyline above, Tom is able to access his IPS, download it in an interoperable format (EEHRxF), and use it to his advantage.**
 - However, Tom’s IPS is only part of his available health data. Other healthcare providers have created additional records in the past, showing the development of his health.

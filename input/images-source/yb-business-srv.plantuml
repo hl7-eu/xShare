@@ -1,0 +1,28 @@
+@startuml
+skinparam roundcorner 25
+
+skinparam rectangle<<behavior>> {
+	roundCorner 25
+}
+sprite $bProcess jar:archimate/business-process
+sprite $aService jar:archimate/application-service
+sprite $bService jar:archimate/business-service
+sprite $aComponent jar:archimate/application-component
+
+' Define the rectangles for Secure Context Establishment
+rectangle "Yellow Button"  as yb <<$bService>><<behavior>> #Business {
+    rectangle "Download" as download <<$bService>><<behavior>> #Business
+    rectangle "One-time share" as oneShare <<$bService>><<behavior>> #Business
+    rectangle "Linked options" as linked <<$bService>><<behavior>> #Business
+}
+
+
+download -right[hidden]-> oneShare
+oneShare -right[hidden]-> linked
+
+
+url of download is [[#download]]
+url of oneShare is [[#one-time-share]]
+url of linked is [[#linked-options]]
+
+@enduml

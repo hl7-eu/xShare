@@ -1,3 +1,4 @@
+
 ### Pre-conditions
 * The citizen has an account and health data in the health provider or third-party app.
 * The citizen is authenticated in the health provider portal/app.

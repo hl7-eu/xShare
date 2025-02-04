@@ -43,29 +43,29 @@ pages:
   index.xml:
     title: Home
   business.md:
-    title: Yellow Button Business overview
+    title: Yellow Button Business view
   application.md:
-    title: Yellow Button Application overview
+    title: Yellow Button Application view
   content.md:
-    title: Yellow Button Content overview
+    title: Yellow Button Information view
   technical.md:
-    title: Yellow Button Technical overview
+    title: Yellow Button Technical view
   labeling_process.xml:
     title: Industry Label Certification Process
   downloads.md:
     title: Downloads
-#  button.md:
-#    title: xShare Yellow Button
-  yb_sequence_diagram.md:
-    title: Yellow Button Sequence Diagram
+  actors.md:
+    title: xShare Yellow Button Components
+#  yb_sequence_diagram.md:
+#    title: Yellow Button Sequence Diagram
   yb_components.md:
     title: Yellow Button SW Components  
   yb_tools.md:
     title: Yellow Button related Tools
   about.xml:
     title: About
-  business-scenarios.md:
-    title: Business Scenarios
+  usage-scenarios.md:
+    title: Yellow button usage examples
   get-started-down.md:
     title: Get Started with the xShare Yellow Button Download
 #  implementation.md:
@@ -106,16 +106,17 @@ menu:
     Download: get-started-down.html
   Business:
     Overview: business.html
-    Scenarios: business-scenarios.html
+    # Scenarios: usage-scenarios.html
     Labeling: labeling_process.html
   Application: 
     Overview: application.html
-    Sequence diagram: yb_sequence_diagram.html
-    YB SW Components: yb_components.html
+ #   Sequence diagram: yb_sequence_diagram.html
+    Reference implementation: yb_components.html
   Data: content.html
   Technology: 
     Overview: technical.html
-    YB related Tools: yb_tools.html  
+    Actors: actors.html
+    Reference Tools: yb_tools.html  
   About: about.html
 
   # Button: button.html

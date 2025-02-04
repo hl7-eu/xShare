@@ -68,7 +68,7 @@ To claim conformance with the xShare Yellow Button Download, implementers must i
 
 ---
 
-### Prove Your Conformance
+#### Prove Your Conformance
 
 A system conformant to the xShare Yellow Button Download feature must:
 

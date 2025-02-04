@@ -1,0 +1,68 @@
+@startuml
+
+actor "Natural Person" as person
+participant  "xShare Yellow Button Creator"  as xShare #d7d30d
+participant "xShare Yellow Button Consumer" as Recipient  #d7d30d
+database "Natural person's Storage" as Storage
+
+==== Natural person authentication (pre-condition) ====
+group "Natural person IAA" [[#natural-person-authentication Natural person authentication]]
+end group
+
+==== Search and Select Health Data ====
+group Search and Select personal health data [[#search-and-select Search and Select]]
+end group
+
+==== Retrieve and Format Health Data ====
+group Retrieve and Format Natural personal health data [[#retrieve-and-format Retrieve and Format]]
+end group
+
+==== Selects Options ====
+opt 
+group Select options [[#select-options Select Options]]
+end group
+end opt
+
+==== Yellow Button Options ====
+
+opt 
+group Download
+person -> xShare: download
+xShare -[#blue]> Storage: <color:blue> [ [[ #download download ]] ]
+deactivate xShare
+end group
+end opt
+
+opt 
+group One-time Share
+person -> xShare: generate link
+activate xShare
+xShare -[#blue]> xShare: <color:blue> [ [[ #generate-shl-uri generate SHL URI]] ]
+return show link
+person -> Recipient: share link
+activate Recipient
+Recipient -[#blue]> Recipient:  <color:blue> [ [[ #process-shl-uri process SHL URI]] ]
+Recipient -[#blue]> xShare:  <color:blue> [ [[#request-shl-manifest request SHL Manifest]] ]
+activate xShare
+return <color:blue> health data
+deactivate Recipient
+end group
+end opt
+
+opt #e4e4e4
+group Linked Options (Not implemented in this version)
+person -> xShare: generate link
+activate xShare
+xShare -> xShare: [SHL generated]\n (flag L: long-term)
+return show link
+person -> Recipient: share link
+activate Recipient
+Recipient-> xShare: [get data from SHL]
+activate xShare
+xShare -> xShare: Updates Natural person's Health Data
+return Health Data
+deactivate Recipient
+end group
+end opt
+
+@enduml

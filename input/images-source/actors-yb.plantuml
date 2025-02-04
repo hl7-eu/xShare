@@ -1,0 +1,42 @@
+@startuml
+
+scale 0.7
+
+skinparam roundcorner 25
+
+skinparam rectangle<<behavior>> {
+	roundCorner 25
+}
+sprite $bProcess jar:archimate/business-process
+sprite $aService jar:archimate/application-service
+sprite $bService jar:archimate/business-service
+sprite $aComponent jar:archimate/application-component
+sprite $tService jar:archimate/technology-service
+sprite $tSystem jar:archimate/technology-system-software
+
+rectangle "xShare Yellow Button Consumer" as consumer <<$tSystem>><<behavior>> #Technology {	
+  rectangle "xShare Yellow Button Content Creator" as content_creator <<$tSystem>><<behavior>> #Technology 
+  rectangle "xShare Yellow Button Link Provider" as link_provider <<$tSystem>><<behavior>> #Technology 
+
+}
+
+rectangle "xShare Yellow Button Provider" as provider <<$tSystem>><<behavior>> #Technology  {	
+  rectangle "xShare Yellow Button Content Consumer" as content_consumer <<$tSystem>><<behavior>> #Technology 
+  rectangle "xShare Yellow Button Link Consumer" as link_consumer <<$tSystem>><<behavior>> #Technology 
+
+}
+
+  note "Content Consumer Required" as N2
+  note "Content Creator Required" as N1
+
+rectangle "Yellow Button"  as yb <<$tService>><<behavior>> #Technology 
+
+
+consumer --> yb
+provider --> yb 
+N1 -up-> consumer
+N2 -up-> provider
+
+
+
+@enduml

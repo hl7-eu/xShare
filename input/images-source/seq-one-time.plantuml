@@ -1,7 +1,7 @@
 @startuml
 actor Citizen
 participant "xShare Yellow Button" as xShare
-actor "Authorised Data Recipient" as Recipient
+participant "Authorised Data Recipient" as Recipient
 
 ==== Citizen authentication (pre-condition) ====
 group #00FF00 Citizen Authentication
