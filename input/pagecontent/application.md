@@ -1,7 +1,9 @@
 
 The **application domain** describes what are the logical (software) components involved in the [yellow button business processes](business.html#business-service-and-processes) and how they interact, collaborate or are coordinated. 
 
+<div>
 {% include bdat-a.svg %}
+</div>
 
 In this version formalized as sequence diagram where the workflow participants are higlighted.
 
@@ -28,22 +30,25 @@ Herefater the sequence diagrams describing how the three identified capabilities
 
 The download functionality enables the citizen to download their health data (in the EEHRxF machine readable format and optionally also human readable format, e.g., PDF) with a click-of-a-button, from a health provider portal/app to their computer or smartphone, according to the following workflow:
 
+<div>
 {% include seq-download.svg %}
-
+</div>
 
 #### One-time share
 
 The one-time share (consent) functionality enables the citizen to consent and share their health data (in the EEHRxF) with a click-of-a-button, from a health provider portal/app to a trusted one (e.g., healthcare provider, relative, or a third-party health app), according to the following workflow:
 
-
+<div>
 {% include seq-one-time.svg %}
-
+</div>
 
 #### Linked option
 
 The linked option functionality enables the citizen to share their health data (in the EEHRxF) with a click-of-a-button, from a health provider portal/app to a trusted one (e.g., healthcare provider, relative, clinical trials, research institutions) for a period of time, according to the following workflow:
 
+<div>
 {% include seq-linked-option.svg %}
+</div>
 
 ### Prove compliance
 This section describes how the participant subject to labeling prove compliance with the YB.

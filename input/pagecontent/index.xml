@@ -40,34 +40,40 @@
 
     The xShare Yellow Button guide includes:
   <ul>
-    <li>A link to the <a href="https://x-bundles.ehr-exchange-format.eu/"><strong>X-Bundle Registry</strong></a>
-    </li>
-    <li>A set of one page <a href="#get-started"><strong>Get Started</strong></a> guides</li>
-    <li>Finally, detailed information organized following the BDAT (business, data, application, and technology) model are provided:</li>
-
-    {% include bdat.svg %}
-
-    <ul>
-      <li>
-    The <a href="business.html">
-        <strong>business domain</strong>
-      </a> describes the business processes and rules that the xShare Yellow Button is supporting.
-    </li>
-    <li>
-    The <a href="content.html">
-      <strong>data domain</strong>
-    </a> describes the data model and the data exchange format.
+    <li>A link to the <a href="https://x-bundles.ehr-exchange-format.eu/">
+      <strong>X-Bundle Registry</strong>
+    </a>
   </li>
+  <li>A set of one page <a href="#get-started">
+    <strong>Get Started</strong>
+  </a> guides</li>
+<li>Finally, detailed information organized following the BDAT (business, data, application, and technology) model are provided:</li>
+<ul>
   <li>
+    The <a href="business.html">
+    <strong>business domain</strong>
+  </a> describes the business processes and rules that the xShare Yellow Button is supporting.
+</li>
+<li>
+    The <a href="content.html">
+  <strong>data domain</strong>
+</a> describes the data model and the data exchange format.
+</li>
+<li>
     The <a href="application.html">
-    <strong>application domain</strong>
-  </a> describes what are the (software) components involved and how they interact, collaborate, or are coordinated. It also provides an overview of the system architecture.
+<strong>application domain</strong>
+</a> describes what are the (software) components involved and how they interact, collaborate, or are coordinated. It also provides an overview of the system architecture.
 </li>
 <li>
     The <a href="technical.html">
-  <strong>technology domain</strong>
+<strong>technology domain</strong>
 </a> describes the technology stack and the infrastructure required to support the xShare Yellow Button. This includes technical standards, specifications, and security considerations.
 </li>
 </ul>
 </ul>
+
+<div>
+    {% include bdat.svg %}
+
+</div>
 </div>

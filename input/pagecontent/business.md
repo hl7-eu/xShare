@@ -2,9 +2,9 @@
 The **business domain** describes the goals, business processes and rules of the xShare Yellow Button.
 
 This also includes how to **products can be labeled**.
-
+<div>
 {% include bdat-b.svg %}
-
+</div>
 ### Goal
 
 xShare envisions everyone **sharing their health data in European Electronic Health Record Exchange Format (EEHRxF) with a click-of-a-button** – the xShare or yellow button- to be featured across health portals and patient apps, allowing people to exercise their data portability rights under GDPR.
@@ -18,9 +18,9 @@ The yellow button enables natural persons to share their health data in European
 * share health data by using a [one-time link](#one-time-share)
 * share health data by using a [link valid for a period of time](#linked-options)
 
-
+<div>
 {% include yb-business-srv.svg %}
-
+</div>
 
 Examples of usage of the Yellow Button are provided in the [usage scenario page](usage-scenarios.html).
 
