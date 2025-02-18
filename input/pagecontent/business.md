@@ -5,13 +5,14 @@ This also includes how to **products can be labeled**.
 <div>
 {% include bdat-b.svg %}
 </div>
+
 ### Goal
 
 xShare envisions everyone **sharing their health data in European Electronic Health Record Exchange Format (EEHRxF) with a click-of-a-button** – the xShare or yellow button- to be featured across health portals and patient apps, allowing people to exercise their data portability rights under GDPR.
 
 More contextual information about the Yellow Button can be found [here](https://xshare-project.eu/the-xshare-button/)
 
-### What is it
+### Overview
 
 The yellow button enables natural persons to share their health data in European Electronic Health Record Exchange Format (EEHRxF) by offering three main capabilities:
 * [download](#download) your health data
@@ -28,7 +29,7 @@ Examples of usage of the Yellow Button are provided in the [usage scenario page]
 **Note: a product claiming to implement the Yellow Button is not required to support all of the listed features**
 
 
-### The Yellow Button features
+### Key Features
 
 #### Common (pre-requisites)
 

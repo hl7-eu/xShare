@@ -100,23 +100,20 @@ pages:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Table of Contents: toc.html
-  X-Bundle registry: https://x-bundles.ehr-exchange-format.eu/
   Get Started: 
     Download: get-started-down.html
   Business:
     Overview: business.html
-    # Scenarios: usage-scenarios.html
     Labeling: labeling_process.html
+  Data: content.html
   Application: 
     Overview: application.html
- #   Sequence diagram: yb_sequence_diagram.html
     Reference implementation: yb_components.html
-  Data: content.html
   Technology: 
     Overview: technical.html
     Actors: actors.html
     Reference Tools: yb_tools.html  
+  X-Bundle registry: https://x-bundles.ehr-exchange-format.eu/
   About: about.html
 
   # Button: button.html

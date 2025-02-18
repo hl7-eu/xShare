@@ -9,17 +9,20 @@ This includes:
 * technical standards, specifications, and security considerations.
 * tools that can be used for realizing the [Primary logical application components](yb_components.html) of the xShare reference implementation. (See [xShare Yellow Button Toolbox](yb_tools.html))
 
+### Overview
 
 Technical standards, specifications, and security considerations are documented in this version of the guide by starting from a sequence diagram (diagram below) representing how the [application view sequence](application.html) is implemented.
 
 The diagram highlights (in yellow) the roles (i.e. the participants) that Yellow Button implementers can claim conformance to:
 
-* The *xShare Yellow Button Provider*
-* The *xShare Yellow Button Consumer*
+* The *xShare Yellow Button Provider*. It implements the [xShare Yellow Button](application.html#the-yellowb-button-participants) application role.
+* The *xShare Yellow Button Consumer*.  It implements the [Authorised Data Recipient](application.html#the-yellowb-button-participants) application role.
 
-documented in the [xShare Yellow Button Participants](actors.html) and the messages that have to be supported, reported in the [xShare Yellow Button Messages](#xshare-yellow-button-messages) section.
+More details about these roles are documented in the [xShare Yellow Button Participants](actors.html) page.
 
-In blue the messages for which technical validation is supposed to be performed.
+Messages supported by these roles are reported in the [xShare Yellow Button Messages](#xshare-yellow-button-messages) section.
+
+**The messages for which technical validation is supposed to be performed are higlighted in blue.**
 
 ### xShare Yellow Button realization
 
@@ -117,7 +120,6 @@ The xShare Yellow Button Provider generates a SMART Health Link URI.
 * Yellow button adopters implementing *Generate SHL URI* shall act as [xShare Yellow Button Link Provider](actors.html#xshare-yellow-button-link-provider)
 
 * The SMART Health Link URI is generated in conformance with the [SMART Health Links Sharing Application Generates a SMART Health Link URI](https://hl7.org/fhir/uv/smart-health-cards-and-links/2024Sep/links-specification.html#smart-health-links-sharing-application-generates-a-smart-health-link-uri) specifications.
-
 
 
 #### Process SHL URI

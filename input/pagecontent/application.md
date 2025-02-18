@@ -2,26 +2,28 @@
 The **application domain** describes what are the logical (software) components involved in the [yellow button business processes](business.html#business-service-and-processes) and how they interact, collaborate or are coordinated. 
 
 <div>
+<p> </p>
 {% include bdat-a.svg %}
+<p> </p>
 </div>
 
-In this version formalized as sequence diagram where the workflow participants are higlighted.
+In this version a sequence diagram is used to describe how - from an application perspective - the business process is realized.
 
-> Please note that not all the identified participants are subject to the labeling process.
+An overview of the [Primary logical application components](yb_components.html) considered in the design of the xShare reference implementation is also provided.
 
+### The Yellow Button Participants
 
-It also provides an overview of the [Primary logical application components](yb_components.html) considered in the design of the xShare reference implementation
+In the sequence diagram documented in the next section the following participants are higlighted: 
 
-### Participants
+* the *Natural Person* : the human actor managing the process. **Not in scope for the YB labeling process.**
+* The *xShare Yellow Button* : the component enabling the natural person to download and share the health data. **In scope for the YB labeling process.**
+* The *Authorised Data Recipient* : the component consuming the health data shared by the natural person. **In scope for the YB labeling process.**
+* The *Citizen's Storage* : the component where the health data are stored after the download. **Not in scope for the YB labeling process.**
 
-* the *natural person* . It is the human actor managing the process. Not in scope for the labeling process.
-* The *xShare Yellow Button*. It is the component enabling the natural person to download and share the health data.
-* The *authorised Data Recipient*. It is the component consuming the health data shared by the natural person.
-* The *citizen's Storage*. It is the component where the health data are stored after the download. Not in scope for the labeling process
 
 ### Sequence diagrams
 
-Herefater the sequence diagrams describing how the three identified capabilities:
+For each of the identified Yellow Button capabilities a sequence diagrams is reported:
 * [Download](#download)
 * [One-time share](#linked-option)
 * [Linked option](#linked-option)
@@ -50,16 +52,48 @@ The linked option functionality enables the citizen to share their health data (
 {% include seq-linked-option.svg %}
 </div>
 
-### Prove compliance
-This section describes how the participant subject to labeling prove compliance with the YB.
+### Declare and Prove Your Compliance
+
+#### Claim Your Compliance
+
+To claim compliance with the xShare Yellow Button implementers must issue a conformance statement specifying:
+* The features realized (download, one-time share, linked option)
+* The roles played ( see [xShare Yellow Button Components](actors.html) )
+* The options supported
+
+#### Prove Your Compliance
 
 #### Download
 
-> TO BE SPECIFIED
+To prove compliance to the *xShare Yellow Button Download* as *xShare Yellow Button* you must:
+
+1. Demonstrate that only authenticated Natural Persons can access the xShare Yellow Button Download feature.
+1. Claim that user autentication is realized in conformance with the European Regulations
+1. Demonstrate that (only) authenticated Natural Persons can search for and select the documents or data they wish to download.
+1. Show that users are enabled to receive and access health information - as listed in the [Yellow Button Information view](content.html) page - through SMART Health Links.
+1. Pass validation tests for each of the declared supported content specifications (e.g., Patient Summary, Laboratory Results).
+
+To prove compliance to the *xShare Yellow Button Download* as *xShare Yellow Button* you must:
+
+1. Demonstrate that only authenticated Natural Persons can access the xShare Yellow Button Download feature.
+1. Claim that user autentication is realized in conformance with the European Regulations
+1. Demonstrate that (only) authenticated Natural Persons can search for and select the documents or data they wish to download.
+1. Show that users are enabled to receive and access health information - as listed in the [Yellow Button Information view](content.html) page - through SMART Health Links.
+1. Pass validation tests for each of the declared supported content specifications (e.g., Patient Summary, Laboratory Results).
+
+*Detailed test cases are described [here]*
 
 #### One-time share
 
-> TO BE SPECIFIED
+To prove compliance to the *xShare Yellow Button One-time* as *Authorised Data Recipient* share you must:
+
+1. Demonstrate that only authenticated Natural Persons can act as Authorised Data Recipient.
+1. Claim that user autentication is realized in conformance with the European Regulations.
+1. Show that users are enabled to receive and access health information - as listed in the [Yellow Button Information view](content.html) page - through SMART Health Links.
+1. Demonstrate that the retrieved health data - if belongng to one of the supported content specifications (e.g., Patient Summary, Laboratory Results) - can be properly processed (e.g displayed).
+
+*Detailed test cases are described [here]*
+
 
 #### Linked options
 

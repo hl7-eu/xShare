@@ -7,41 +7,44 @@ To facilitate this adoption, all artifacts, while remaining on GitHub to support
 
 The registry acts as a comprehensive catalogue of modular components specified within WP2, enhancing accessibility and guiding implementers through the adoption and integration process.
 
-A first list of tools is reported in the [x-Bundle regstry](https://x-bundles.ehr-exchange-format.eu/lab-rpt-tool/tools.html)
+A first list of tools is reported in the [x-Bundle regstry](https://x-bundles.ehr-exchange-format.eu/yb-tool/tools.html)
 
-#### CDA2FHIR
+This includes among the others
 
-The [CDA2FHIR Converter](https://github.com/srdc/cda2fhir) is a critical tool developed to address compatibility between the CDA format, currently used in the MyHealth@EU infrastructure, and the HL7 FHIR standard, which is recommended by the EEHRxF for interoperability. 
-The CDA2FHIR Converter transforms CDA documents, such as Patient Summaries and ePrescriptions, into FHIR-compliant resources, facilitating cross-border data sharing and ensuring that health information remains accessible and usable across different systems.
+#### HL7 FHIR Mapping language tools ( CDA2FHIR )
 
->[C-CDA on FHIR v2.0.0](https://build.fhir.org/ig/HL7/ccda-on-fhir/)\
->[GitHub – HL7 Austria/CDA2FHIR: Maps to transform documents from CDA to FHIR](https://github.com/HL7Austria/CDA2FHIR) \
->[Open-source initiative to support testing and implementation of FHIR](https://www.matchbox.health/) \
->[Switzerland FHIR IG CDA-FHIR-MAPS](https://fhir.ch/ig/cda-fhir-maps/index.html) \
->[FHIR mapping language](https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Mapping+Language)
+The capability of transforming HL7 CDA instances, currently used in the MyHealth@EU infrastructure for the Patient Summary and the ePrescription, into HL7 FHIR-compliant resources, adopted by the EEHRxF and for the MyHealth@EU new services, is a common requirement.
+
+While several different technologies may be used for this purpose, HL7 FHIR Mapping language is one of the frequently adopted.
+
+There are several open libraries or servivces that can be used and examples of CDA to FHIR maps.
+
+A first list is provided in the [HL7 FHIR Mapping Language tools X-Bundle](https://x-bundles.ehr-exchange-format.eu/fml-tool/tools.html)
+
  
 #### Smart Health Links
 
-[Smart Health Links](https://docs.smarthealthit.org/smart-health-links/spec/) (SHL) provide a streamlined, secure way to share personal health information through easily accessible links. These links facilitate patient-centred data exchange by allowing individuals to grant access to selected health data securely and efficiently across various healthcare systems and applications. The SHL framework is built on interoperability standards that ensure health information can be shared and accessed consistently across platforms, supporting scenarios from clinical care to personal health management.
+[Smart Health Links](https://build.fhir.org/ig/HL7/smart-health-cards-and-links/) (SHL) provide a streamlined, secure way to share personal health information through easily accessible links. These links facilitate patient-centred data exchange by allowing individuals to grant access to selected health data securely and efficiently across various healthcare systems and applications. The SHL framework is built on interoperability standards that ensure health information can be shared and accessed consistently across platforms, supporting scenarios from clinical care to personal health management.
 
->[SHL Introduction](https://docs.smarthealthit.org/smart-health-links/)\
->[SHL Specifications](https://docs.smarthealthit.org/smart-health-links/spec)\
->[SHL Source Code](https://github.com/jmandel/vaxx.link)
+* an SHL overview is provided in the [SHL Introduction](https://docs.smarthealthit.org/smart-health-links/) site
+* Some reference [SHL Source Code](https://github.com/jmandel/vaxx.link) is available in GitHub.
 
-#### Git Hub
+#### xShare toolbox GitHub
 
 A GitHub repository ([xShare GitHub](https://github.com/xSHARE-project-eu)) have been established and maintained to support collaborative development and version control for all technical assets related to the technical assets that were developed to support xShare toolbox. These repositories serve as a central hub for code management, issue tracking, and collaborative problem-solving among the involved partners and others, as the reference code is open source and publicly available to the community. 
 Regular updates, thorough documentation, and structured branching strategies ensure that all modifications are transparent and traceable. This collaborative environment fosters innovation and ensures that all partners can contribute effectively to developing and maintaining the project's technical components. It also supports the continuity of other projects or endeavours, thereby enhancing these technical assets to improve their functionality and impact.
 
-#### FHIR Validator
+#### HL7 FHIR Validators 
 
-FHIR validator is an operation in FHIR that allows you to ensure that a FHIR resource conforms to the base resource requirements or a specified profile.
-The [FHIR public validators](https://confluence.hl7.org/display/FHIR/Public+FHIR+Validation+Services) are a set of validators that enable the validation of the FHIR resources using the profiles URLs.
+HL7 FHIR validator allow users to verify FHIR resources conform to the HL7 FHIR standards and to specified profiles.
 
-#### EEHRxF Validator
+An overview of how the FHIR specification supports validation of resources is provided in the HL7 FHIR standard [Validating Resources](https://build.fhir.org/validation) page.
 
-The [HL7 Sandbox](https://sandbox.hl7europe.eu/) provides a set of tools of FHIR validator/conformance for Health Information Domains (in particular Laboratory Results and Electronic Prescriptions).
+An initial list of related tools is listed in the  [Validation and testing tools X-Bundle](https://x-bundles.ehr-exchange-format.eu/test-tool/tools.html)
 
-#### FHIR PDF converter
 
-[FHIR PDF converter](https://github.com/Bahmni/fhir-pdf) enables the creation of a PDF using a FHIR resource.
+#### EEHRxF Sandboxes
+
+There are several HL7 FHIR public servers that can be used as HL7 FHIR sandboxes. A first list is provided in the HL7 Confulence page [Public Test Servers](https://confluence.hl7.org/spaces/FHIR/pages/35718859/Public+Test+Servers)
+
+In the [HL7 Europe Sandbox](https://sandbox.hl7europe.eu/) a set of links to HAPI based HL7 FHIR Servers customized for supporting some relevant published European FHIR IG is provided.

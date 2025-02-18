@@ -4,76 +4,92 @@
   <blockquote class="dragon">
     <p>The specification herewith documented is a working specification. 
     No liability can be inferred from the use or misuse of this specification, or its consequences.</p>
-    <p>
-  Please refer to the <a href='https://x-bundles.ehr-exchange-format.eu/xb-1/main.html' > X-Bundle Registry dedicated entry</a> for consulting the xShare button X-Bundle</p>
   </blockquote>
 
   <a name="scope"></a>
   <h3>Scope</h3>
   <p>
-    This guide provides a guidance on how to implement, be conformant with and obtain the <strong>xShare Yellow Button</strong> label, facilitating the access and adoption of the selected specifications.
+   This guide provides instructions to help you understand, implement, conform to, and label your product in accordance with the <strong>xShare Yellow Button</strong>.
   </p>
+  <p>
+More contextual information about the xShare Yellow Button, including tools and supporting material can be found at the <a href="https://x-bundles.ehr-exchange-format.eu/usecases/usecases.html">X-Bundle Registry</a>.
+  </p>
+
+
+  <a name="purpose"></a>
+  <h3>Purpose</h3>
+  <p>The xShare Yellow Button is a simple way to share your data with a single click.</p>
+  <p>This guide explains how to understand, implement, and conform to the xShare Yellow Button specification.</p>
+  <p>It is intended for developers, implementers, and testers of systems that use the xShare Yellow Button.</p>
+  <p>The xShare Yellow Button enables natural persons to share their health data in European Electronic Health Record Exchange Format (EEHRxF) by offering three main capabilities:</p>
+  <ul>
+    <li>The download of their health data</li>
+    <li>The health data sharing by using a one-time link</li>
+    <li>The health data sharing by using a link valid for a period of time</li>
+  </ul>
+
+  <p>This version of the xShare Yellow Button specification focuses on the first two features.</p>
+
+  <p>In the following paragraphs you will find the information you need to</p>
+  <ul>
+    <li>
+      <a href="#get-started">get started with the xShare Yellow Button</a>
+    </li>
+    <li>
+      <a href="#get-more">get more from this specification.</a>
+    </li>
+  </ul>
+
 
 
   <a name="get-started"></a>
   <h3>Get Started</h3>
-  <p>
-    Do you want to start with the xShare Yellow Button ?  Read the :
-  </p>
-  <p>
-    <ul>
-      <li>
-        <a href="get-started-down.html">Get Started with the xShare Yellow Button Download</a> page.
-      </li>
-      <li>
-        <a href="xxxxxxx.html">Get Started with the xShare Yellow Button One-time share</a> page.
-      </li>
-    </ul>
-  </p>
 
-  <p>
-    Do you want to learn more ?   Read this guide... See also the <a href="#guide-org">Guide Organzation</a> section below.
-  </p>
+  <p>New readers are encouraged to begin with the one page xShare Yellow Button "get started" pages explaining in a simple and concise way what do you need to do to implement and prove conformance to this guide:</p>
 
-  <a name="guide-org"></a>
-  <h3>Guide Organization</h3>
-
-    The xShare Yellow Button guide includes:
   <ul>
-    <li>A link to the <a href="https://x-bundles.ehr-exchange-format.eu/">
-      <strong>X-Bundle Registry</strong>
-    </a>
+    <li>
+      <a href="get-started-down.html">Get Started with the xShare Yellow Button Download</a>
+    </li>
+    <li>
+      <a href="xxxxxxx.html">Get Started with the xShare Yellow Button One-time share</a>
+    </li>
+  </ul>
+
+
+  <a name="get-more"></a>
+  <h3>Understand this Guide</h3>
+
+  <p>Readers that would like to get more from this specifications should understand how detailed information have been organized in this guide.</p>
+
+  <div>
+    {% include bdat.svg %}
+    <caption>Navigating this guide</caption>
+  </div>
+
+  <p>In fact information described in this guide is organized following the BDAT (business, data, application, and technology) model. Where: </p>
+  <ul>
+    <li>
+      <p>The<a href="business.html">
+        <strong> business domain </strong>
+      </a>describes the business goals, processes and rules the xShare Yellow Button is referring to.</p>
+    <p>It substantially describes why, how and where to use the xShare Yellow Button, from a users perspective.</p>
   </li>
-  <li>A set of one page <a href="#get-started">
-    <strong>Get Started</strong>
-  </a> guides</li>
-<li>Finally, detailed information organized following the BDAT (business, data, application, and technology) model are provided:</li>
-<ul>
   <li>
-    The <a href="business.html">
-    <strong>business domain</strong>
-  </a> describes the business processes and rules that the xShare Yellow Button is supporting.
-</li>
-<li>
-    The <a href="content.html">
-  <strong>data domain</strong>
-</a> describes the data model and the data exchange format.
+    The<a href="content.html">
+    <strong> data domain </strong>
+  </a>describes the data model and the data exchange format.
 </li>
 <li>
     The <a href="application.html">
-<strong>application domain</strong>
-</a> describes what are the (software) components involved and how they interact, collaborate, or are coordinated. It also provides an overview of the system architecture.
+  <strong>application domain</strong>
+</a> describes - in a implementation indipendent form - what are the (software) components involved and how they interact, collaborate, or are coordinated. It also provides an overview of the system architecture.
 </li>
 <li>
-    The <a href="technical.html">
-<strong>technology domain</strong>
-</a> describes the technology stack and the infrastructure required to support the xShare Yellow Button. This includes technical standards, specifications, and security considerations.
+<p>The <a href="technical.html">
+  <strong>technology domain</strong>
+</a> describes the technology stack and the infrastructure required to support the xShare Yellow Button. This includes technical standards, specifications, and security considerations.</p>
+<p>This is where implemantable specifications are described.</p>
 </li>
 </ul>
-</ul>
-
-<div>
-    {% include bdat.svg %}
-
-</div>
 </div>
