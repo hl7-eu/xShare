@@ -64,7 +64,7 @@ More contextual information about the xShare Yellow Button, including tools and 
 
   <div>
     {% include bdat.svg %}
-    <caption>Navigating this guide</caption>
+    <p><caption>Fig. 1: Navigating this guide</caption></p>
   </div>
 
   <p>In fact information described in this guide is organized following the BDAT (business, data, application, and technology) model. Where: </p>
