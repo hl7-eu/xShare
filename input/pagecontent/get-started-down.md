@@ -32,7 +32,7 @@ Given that your system manages Natural Person authentication in accordance with 
 
 ### How to Implement: the specifications
 
-For this version of the xShare Yellow Button **the only technical specifications to prove conformance with are the content specifications** listed below:
+For this version of the xShare Yellow Button **the only technical specifications to prove conformance with are the content specifications** listed below, acting as [**xShare Yellow Button Content Creator**](file:///C:/workspace/xshare-yb/output/actors.html#xshare-yellow-button-content-creator):
 
 
 |  | xBundle  | HL7 FHIR IG |
@@ -56,15 +56,13 @@ Early implementers might be interested in piloting the following on development 
 |------|-------------|-------------|
 
 
-*Note: The list of possible download formats will be kept updated.*
-
 ---
 
 ### Declare and Prove Your Conformance
 
 #### Claim Your Conformance
 
-To claim conformance with the xShare Yellow Button Download, implementers must issue a conformance statement specifying the content specifications  and the optional features supported (e.g. additional download formats, password protected content, psuedoanonymized data;...).
+To claim conformance with the xShare Yellow Button Download, implementers must issue a conformance statement specifying the content specifications and the optional features supported (e.g. additional download formats, password protected content, psuedoanonymized data;...).
 
 ---
 
