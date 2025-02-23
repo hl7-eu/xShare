@@ -1,4 +1,5 @@
 @startuml
+
 skinparam roundcorner 25
 rectangle "Implement the specifications"  as impl <<$archimate/business-process>> #Business
 rectangle "Declare and prove the conformance"  as prove <<$archimate/business-process>> #Business
@@ -10,6 +11,6 @@ prove -right-> label
 
 url of impl is [[#how-to-implement-the-specifications]]
 url of prove is [[#declare-and-prove-your-conformance]]
-url of label is [[labeling_process.html]]
+url of label is [[#label-your-system]]
 
 @enduml

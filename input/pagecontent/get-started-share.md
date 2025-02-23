@@ -2,7 +2,7 @@
 **DRAFT TO BE REVISED**
 
 
-This is a brief guideline on why and how to implement the xShare Yellow Button Download feature in your system, and prove its conformance.
+This is a brief guideline on why and how to implement the xShare Yellow Button One-time Share feature in your system, and prove its conformance.
 
 To use the Yellow Button Label you have to:
 
@@ -22,17 +22,24 @@ To use the Yellow Button Label you have to:
 Given that your system manages Natural Person authentication in accordance with European Regulations (see more details [here]), the following functionality should be provided:
 
 - Your system enables the authenticated Natural Person (data owner) to:
-  - View and select from the available health data to download.
-  - Optionally configure download options (e.g., format, translations, pseudonymization, etc.).
-  - Download the selected content to a chosen destination.
+  - View and select from the available health data to share.
+  - Optionally configure share options (e.g., format, translations, pseudonymization, etc.).
+  - Generate the Smart Health Link with the selected content.
+  - Provides the Smart Health Link to the Natural Person.
 
-*A detailed diagram is available [here](application.html#download).*
+- Your system enables the authorised data recipient to:
+  - View the shared data authorised by the Natural Person when accesses the Smart Health Link.
+
+*A detailed diagram is available [here](application.html#one-time-share).*
 
 ---
 
 ### How to Implement: the specifications
 
-For this version of the xShare Yellow Button **the only technical specifications to prove conformance with are the content specifications** listed below, acting as [**xShare Yellow Button Content Creator**](actors.html#xshare-yellow-button-content-creator):
+For this version of the xShare Yellow Button the technical specifications to prove conformance with are the content specifications and the Smart Health Link specifications.
+
+#### Content specifications
+Acting as [**xShare Yellow Button Content Creator**](actors.html#xshare-yellow-button-content-creator) and [**xShare Yellow Button Content Consumer**](actors.html#xshare-yellow-button-content-consumer):
 
 
 |  | xBundle  | HL7 FHIR IG |
@@ -55,6 +62,15 @@ Early implementers might be interested in piloting the following on development 
 | <img src="radiology.png" alt="Digital Imaging Report icon" style="width:30px; vertical-align:middle;"> | [Digital Imaging Report](https://x-bundles.ehr-exchange-format.eu/dir-content/content.html) | 
 |------|-------------|-------------|
 
+#### Smart Health Link specifications
+Acting as [**xShare Yellow Button Link Provider**](actors.html#xshare-yellow-button-link-provider):
+
+* The SMART Health Link URI is generated in conformance with the [SMART Health Links Sharing Application Generates a SMART Health Link URI](https://hl7.org/fhir/uv/smart-health-cards-and-links/2024Sep/links-specification.html#smart-health-links-sharing-application-generates-a-smart-health-link-uri) specifications.
+
+Acting as [**xShare Yellow Button Link Consumer**](actors.html#xshare-yellow-button-link-consumer):
+
+* The SMART Health Link URI is processed in conformance with the [SMART Health Links Receiving Application processes a SMART Health Link](https://hl7.org/fhir/uv/smart-health-cards-and-links/2024Sep/links-specification.html#smart-health-links-receiving-application-processes-a-smart-health-link) specifications.
+
 
 ---
 
@@ -62,20 +78,20 @@ Early implementers might be interested in piloting the following on development 
 
 #### Claim Your Conformance
 
-To claim conformance with the xShare Yellow Button Download, implementers must issue a conformance statement specifying the content specifications and the optional features supported (e.g. additional download formats, password protected content, psuedoanonymized data;...).
+To claim conformance with the xShare Yellow Button One-time Share, implementers must issue a conformance statement specifying the content specifications and the optional features supported (e.g. additional download formats, password protected content, psuedoanonymized data;...).
 
 ---
 
 #### Prove Your Conformance
 
-A system conformant to the xShare Yellow Button Download feature must:
+A system conformant to the xShare Yellow Button One-time Share feature must:
 
-1. Demonstrate that only authenticated Natural Persons can access the xShare Yellow Button Download feature.
+1. Demonstrate that only authenticated Natural Persons can access the xShare Yellow Button One-time Share feature.
 1. Claim that user autentication is realized in conformance with the European Regulations
-1. Demonstrate that (only) authenticated Natural Persons can search for and select the documents or data they wish to download.
+1. Demonstrate that (only) authenticated Natural Persons can search for and select the documents or data they wish to share.
 1. Pass validation tests for each of the declared supported content specifications (e.g., Patient Summary, Laboratory Results).
-1. Ensure that the download content is available in the selected target format.
-
+1. Demonstrate that Smart Health Link is generated.
+1. Ensure that content authorised for sharing is available in the selected target format when the authorised data recipient accesses the Smart Health Link.
 
 *Detailed test cases are described [here]*
 

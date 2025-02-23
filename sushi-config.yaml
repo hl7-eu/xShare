@@ -68,6 +68,8 @@ pages:
     title: Yellow button usage examples
   get-started-down.md:
     title: Get Started with the xShare Yellow Button Download
+  get-started-share.md:
+    title: Get Started with the xShare Yellow Button One-time Share
 #  implementation.md:
 #    title: Implementation Considerations
  #  recommendations.md:
@@ -102,6 +104,7 @@ menu:
   Home: index.html
   Get Started: 
     Download: get-started-down.html
+    One-time Share: get-started-share.html
   Business:
     Overview: business.html
     Labeling: labeling_process.html
