@@ -1,7 +1,7 @@
 @startuml
 
 actor "Natural Person" as person
-participant  "xShare Yellow Button Creator"  as xShare #d7d30d
+participant  "xShare Yellow Button Provider"  as xShare #d7d30d
 participant "xShare Yellow Button Consumer" as Recipient  #d7d30d
 database "Natural person's Storage" as Storage
 

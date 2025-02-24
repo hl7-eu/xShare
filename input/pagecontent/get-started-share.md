@@ -1,12 +1,14 @@
 
-**DRAFT TO BE REVISED**
-
-
 This is a brief guideline on why and how to implement the xShare Yellow Button One-time Share feature in your system, and prove its conformance.
 
 To use the Yellow Button Label you have to:
 
+
+<div>
+<p></p>
 {% include get-the-label.svg %}
+<p></p>
+</div>
 
 ---
 
@@ -19,7 +21,7 @@ To use the Yellow Button Label you have to:
 
 ### What You Should Be Able to Do
 
-Given that your system manages Natural Person authentication in accordance with European Regulations (see more details [here]), the following functionality should be provided:
+Given that your system manages Natural Person authentication in accordance with European Regulations , the following functionality should be provided:
 
 - Your system enables the authenticated Natural Person (data owner) to:
   - View and select from the available health data to share.
@@ -89,9 +91,9 @@ A system conformant to the xShare Yellow Button One-time Share feature must:
 1. Demonstrate that only authenticated Natural Persons can access the xShare Yellow Button One-time Share feature.
 1. Claim that user autentication is realized in conformance with the European Regulations
 1. Demonstrate that (only) authenticated Natural Persons can search for and select the documents or data they wish to share.
-1. Pass validation tests for each of the declared supported content specifications (e.g., Patient Summary, Laboratory Results).
-1. Demonstrate that Smart Health Link is generated.
-1. Ensure that content authorised for sharing is available in the selected target format when the authorised data recipient accesses the Smart Health Link.
+1. Demonstrate that a valid Smart Health Link is generated.
+1. Ensure that content authorised for sharing (the SHL Manifest) is available in the selected target format when the authorised data recipient accesses the Smart Health Link.
+1. The SHL Manifest passes the validation tests for each of the declared supported content specifications (e.g., Patient Summary, Laboratory Results).
 
 *Detailed test cases are described [here]*
 

@@ -18,11 +18,15 @@ The diagram highlights (in yellow) the roles (i.e. the participants) that Yellow
 * The *xShare Yellow Button Provider*. It implements the [xShare Yellow Button](application.html#the-yellowb-button-participants) application role.
 * The *xShare Yellow Button Consumer*.  It implements the [Authorised Data Recipient](application.html#the-yellowb-button-participants) application role.
 
-More details about these roles are documented in the [xShare Yellow Button Participants](actors.html) page.
+More details about these roles (actors in the IHE world) are documented in the [xShare Yellow Button Participants](actors.html) page.
 
-Messages supported by these roles are reported in the [xShare Yellow Button Messages](#xshare-yellow-button-messages) section.
+Messages supported by these roles (transactions in the IHE world) are reported in the [xShare Yellow Button Messages](#xshare-yellow-button-messages) section.
+
+By clicking on the message in the diagrams readers can directly access the details of that message, including conformance rules.
 
 **The messages for which technical validation is supposed to be performed are higlighted in blue.**
+
+
 
 ### xShare Yellow Button realization
 
@@ -60,10 +64,12 @@ More details about these roles is provided in the [xShare Yellow Button particip
 
 ### xShare Yellow Button Messages
 
+This section describes the messages used by the [sequence diagrams](#xshare-yellow-button-realization) above.
+
 
 #### Natural person authentication
 
-For this version of the guide **natural person identification, authentication and authorization is a Yellow Button pre-requisite**.
+For this version of the guide the **natural person identification, authentication and authorization is a Yellow Button pre-requisite**.
 
 See [Yellow Button Business View](business.html) and [Yellow Button Applicaiton View](application.html).
 

@@ -18,7 +18,7 @@ More contextual information about the xShare Yellow Button, including tools and 
 
   <a name="purpose"></a>
   <h3>Purpose</h3>
-  <p>The xShare Yellow Button is a simple way to share your data with a single click.</p>
+  <p>The <strong>xShare Yellow Button is a simple way to share your data with a single click</strong>.</p>
   <p>This guide explains how to understand, implement, and conform to the xShare Yellow Button specification.</p>
   <p>It is intended for developers, implementers, and testers of systems that use the xShare Yellow Button.</p>
   <p>The xShare Yellow Button enables natural persons to share their health data in European Electronic Health Record Exchange Format (EEHRxF) by offering three main capabilities:</p>
@@ -61,13 +61,15 @@ More contextual information about the xShare Yellow Button, including tools and 
   <h3>Understand this Guide</h3>
 
   <p>Readers that would like to get more from this specifications should understand how detailed information have been organized in this guide.</p>
+    <p>Information described in this guide is organized following the BDAT (business, data, application, and technology) model (see figure below).</p>
 
   <div>
+  <p> </p>
     {% include bdat.svg %}
-    <p><caption>Fig. 1: Navigating this guide</caption></p>
+    <p><caption>Fig. 1: Navigating this guide</caption></p>  
   </div>
 
-  <p>In fact information described in this guide is organized following the BDAT (business, data, application, and technology) model. Where: </p>
+  <p>Where: </p>
   <ul>
     <li>
       <p>The<a href="business.html">

@@ -1,42 +1,42 @@
 @startuml
-actor Citizen
+actor "Natural Person" as NatPerson
 participant "xShare Yellow Button" as xShare
 participant "Authorised Data Recipient" as Recipient
 
-==== Citizen authentication (pre-condition) ====
-group #00FF00 Citizen Authentication
-Citizen -[#blue]> Citizen: Citizen Authenticates in the user interface
+==== Natural Person authentication (pre-condition) ====
+group #00FF00 Natural Person Authentication
+NatPerson -[#blue]> NatPerson: Natural Person Authenticates in the user interface
 end group
 
 ==== Search and Select Health Information ====
-group Search and Select Citizen's Health data
-Citizen -> xShare: Search Citizen's Health Data
+group Search and Select Natural Person's Health data
+NatPerson -> xShare: Search Natural Person's Health Data
 activate xShare
-xShare -> xShare: Search Citizen's Health Data
-return: Shows Citizen's available Health Data
-Citizen -> xShare: Selects health data to download or share
+xShare -> xShare: Search Natural Person's Health Data
+return: Shows Natural Person's available Health Data
+NatPerson -> xShare: Selects health data to download or share
 activate xShare
 end group
 
 ==== Retrieve and Format Health Information ====
-group Retrieve and Format Citizen's Health data
-xShare-> xShare: Retrieve Citizen's Health Data
+group Retrieve and Format Natural Person's Health data
+xShare-> xShare: Retrieve Natural Person's Health Data
 xShare-> xShare: EEHRxF data
 end group
 
 ==== Selects Data Transformation Option ====
 opt select Data Transformation option
-Citizen -> xShare: Selects transformation option (human-readable format, \n anonymisation, password protection, translation, digital signature)
+NatPerson -> xShare: Selects transformation option (human-readable format, \n anonymisation, password protection, translation, digital signature)
 xShare -> xShare: Transformed data
 end opt
 
 ==== One-time Share Health Document ====
 group One-time Share
-Citizen -> xShare: One-time share Citizen's Health Data
+NatPerson -> xShare: One-time share Natural Person's Health Data
 activate xShare
 xShare -> xShare: Smart Health Link Generated
 return Shows Smart Health Link
-Citizen -> Recipient: Shares Smart Health Link
+NatPerson -> Recipient: Shares Smart Health Link
 activate Recipient
 Recipient-> xShare: Accesses Smart Health Link
 activate xShare

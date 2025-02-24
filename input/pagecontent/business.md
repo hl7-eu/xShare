@@ -26,7 +26,7 @@ The yellow button enables natural persons to share their health data in European
 Examples of usage of the Yellow Button are provided in the [usage scenario page](usage-scenarios.html).
 
 
-**Note: a product claiming to implement the Yellow Button is not required to support all of the listed features**
+**Note: a product implementing the Yellow Button is not required to support all of the listed features**
 
 
 ### Key Features
@@ -41,7 +41,9 @@ To use the yellow button, natural persons shall be allowed to satisfy these pre-
 * Authorised recipient can vary between an authorised person (trusted one or HCP) to a healthcare organisation. When is a trusted one without access to a health provider portal/app, the shared health data is transferred using another method.
 
 > Notes: Authentication and security is to be handled by the infrastructures where the xShare Yellow Button is deployed.
-> This version of the guide doesn't specify how the natural person is identified, authenticated and authozired, assuming that is aligned with the [xShare Yellow Button Legal Requirements](https://x-bundles.ehr-exchange-format.eu/priv-sec-legal/legal.html) and with the legal requirements of each Adoption Site and its country. 
+
+> This version of the guide doesn't specify how the natural person is identified, authenticated and authozired, assuming that is aligned with the [xShare Yellow Button Legal Requirements](https://x-bundles.ehr-exchange-format.eu/priv-sec-legal/legal.html) and with the legal requirements of each Adoption Site and its country.
+
 > The xShare Yellow Button cannot oppose to the local legislation and must be adopted and ensured by each Adoption Site.
 
 

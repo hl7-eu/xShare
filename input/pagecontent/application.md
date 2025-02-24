@@ -18,7 +18,7 @@ In the sequence diagram documented in the next section the following participant
 * the *Natural Person* : the human actor managing the process. **Not in scope for the YB labeling process.**
 * The *xShare Yellow Button* : the component enabling the natural person to download and share the health data. **In scope for the YB labeling process.**
 * The *Authorised Data Recipient* : the component consuming the health data shared by the natural person. **In scope for the YB labeling process.**
-* The *Citizen's Storage* : the component where the health data are stored after the download. **Not in scope for the YB labeling process.**
+* The *Natural Person's Storage* : the component where the health data are stored after the download. **Not in scope for the YB labeling process.**
 
 
 ### Sequence diagrams
@@ -56,45 +56,9 @@ The linked option functionality enables the citizen to share their health data (
 
 #### Claim Your Compliance
 
-To claim compliance with the xShare Yellow Button implementers must issue a conformance statement specifying:
-* The features realized (download, one-time share, linked option)
-* The roles played ( see [xShare Yellow Button Components](actors.html) )
-* The options supported
+To claim compliance the application level rules specified in this page, xShare Yellow Button implementers must issue a conformance statement in accordance with the indications of the [Claim Your Conformance](conformance.html#claim-your-conformance) section.
 
 #### Prove Your Compliance
 
-#### Download
-
-To prove compliance to the *xShare Yellow Button Download* as *xShare Yellow Button* you must:
-
-1. Demonstrate that only authenticated Natural Persons can access the xShare Yellow Button Download feature.
-1. Claim that user autentication is realized in conformance with the European Regulations
-1. Demonstrate that (only) authenticated Natural Persons can search for and select the documents or data they wish to download.
-1. Show that users are enabled to receive and access health information - as listed in the [Yellow Button Information view](content.html) page - through SMART Health Links.
-1. Pass validation tests for each of the declared supported content specifications (e.g., Patient Summary, Laboratory Results).
-
-To prove compliance to the *xShare Yellow Button Download* as *xShare Yellow Button* you must:
-
-1. Demonstrate that only authenticated Natural Persons can access the xShare Yellow Button Download feature.
-1. Claim that user autentication is realized in conformance with the European Regulations
-1. Demonstrate that (only) authenticated Natural Persons can search for and select the documents or data they wish to download.
-1. Show that users are enabled to receive and access health information - as listed in the [Yellow Button Information view](content.html) page - through SMART Health Links.
-1. Pass validation tests for each of the declared supported content specifications (e.g., Patient Summary, Laboratory Results).
-
-*Detailed test cases are described [here]*
-
-#### One-time share
-
-To prove compliance to the *xShare Yellow Button One-time* as *Authorised Data Recipient* share you must:
-
-1. Demonstrate that only authenticated Natural Persons can act as Authorised Data Recipient.
-1. Claim that user autentication is realized in conformance with the European Regulations.
-1. Show that users are enabled to receive and access health information - as listed in the [Yellow Button Information view](content.html) page - through SMART Health Links.
-1. Demonstrate that the retrieved health data - if belongng to one of the supported content specifications (e.g., Patient Summary, Laboratory Results) - can be properly processed (e.g displayed).
-
-*Detailed test cases are described [here]*
-
-
-#### Linked options
-
-Not in scope for this version.
+To prove compliance the application level rules specified in this page, xShare Yellow Button implementers must be able to demostrate that thier solutions are conformant with what is specified in the 
+[Prove Your Conformance](conformance.html#prove-your-conformance) section.

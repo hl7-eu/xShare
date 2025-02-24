@@ -80,7 +80,7 @@
             <mxPoint x="130" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3QQ7aEGl3oEm1BZ8Pkhi-29" value="Citizen" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="3QQ7aEGl3oEm1BZ8Pkhi-29" value="Natural Person" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="310" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3QQ7aEGl3oEm1BZ8Pkhi-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">

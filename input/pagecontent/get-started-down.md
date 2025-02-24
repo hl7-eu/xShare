@@ -1,12 +1,13 @@
 
-**DRAFT TO BE REVISED**
-
-
 This is a brief guideline on why and how to implement the xShare Yellow Button Download feature in your system, and prove its conformance.
 
 To use the Yellow Button Label you have to:
 
+<div>
+<p></p>
 {% include get-the-label.svg %}
+<p></p>
+</div>
 
 ---
 
@@ -19,7 +20,7 @@ To use the Yellow Button Label you have to:
 
 ### What You Should Be Able to Do
 
-Given that your system manages Natural Person authentication in accordance with European Regulations (see more details [here]), the following functionality should be provided:
+Given that your system manages Natural Person authentication in accordance with European Regulations , the following functionality should be provided:
 
 - Your system enables the authenticated Natural Person (data owner) to:
   - View and select from the available health data to download.

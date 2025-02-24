@@ -70,6 +70,9 @@ pages:
     title: Get Started with the xShare Yellow Button Download
   get-started-share.md:
     title: Get Started with the xShare Yellow Button One-time Share
+  conformance.md:
+    title: Declare and Prove Your Conformance
+
 #  implementation.md:
 #    title: Implementation Considerations
  #  recommendations.md:
@@ -115,6 +118,7 @@ menu:
   Technology: 
     Overview: technical.html
     Actors: actors.html
+    Conformance: conformance.html
     Reference Tools: yb_tools.html  
   X-Bundle registry: https://x-bundles.ehr-exchange-format.eu/
   About: about.html

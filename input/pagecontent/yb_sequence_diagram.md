@@ -15,7 +15,7 @@
 
 The download functionality enables the citizen to download their health data (in the EEHRxF machine readable format and optionally also human readable format, e.g., PDF) with a click-of-a-button, from a health provider portal/app to their computer or smartphone, according to the following workflow:
 
-1. Citizen (data owner) clicks on the xShare Yellow Button and selects the download functionality.
+1. Natural Person (data owner) clicks on the xShare Yellow Button and selects the download functionality.
 2. Visualises and selects from the health data available to download (e.g., all the HID, a data group, or a specific data field of a data group in a HID).
 3. *(optional) Configures the xShare Yellow Button download options:*
     1. *Data transformation: anonymisation, password, translation, and digital signature.*
@@ -32,13 +32,13 @@ The following figure shows the sequence diagram of the Download functionality.
 
 The one-time share (consent) functionality enables the citizen to consent and share their health data (in the EEHRxF) with a click-of-a-button, from a health provider portal/app to a trusted one (e.g., healthcare provider, relative, or a third-party health app), according to the following workflow:
 
-1. Citizen (data owner) clicks on the xShare Yellow Button and selects the one-time share functionality.
+1. Natural Person (data owner) clicks on the xShare Yellow Button and selects the one-time share functionality.
 2. Visualises and selects the health data available to share and creates a static document.
 3. *(optional) Configures the xShare Yellow Button share options:*
     1. *Data transformation: anonymisation, translation, and digital signature.*
     2. *Data format: EEHRxF and the original data in human readable format.*
-4. Citizen requests a shareable link.
-5. Citizen provides the shareable link to the Authorised Data Recipient.
+4. Natural Person requests a shareable link.
+5. Natural Person provides the shareable link to the Authorised Data Recipient.
 6. Authorised Data Recipient accesses/visualises the shared health data and is able to store it.
 
 The following figure shows the sequence diagram of the One-time share functionality.
@@ -51,16 +51,16 @@ The following figure shows the sequence diagram of the One-time share functional
 
 The linked options functionality enables the citizen to share their health data (in the EEHRxF) with a click-of-a-button, from a health provider portal/app to a trusted one (e.g., healthcare provider, relative, clinical trials, research institutions) for a period of time, according to the following workflow:
 
-1. Citizen (data owner) clicks on the xShare Yellow Button and selects the one-time share functionality.
+1. Natural Person (data owner) clicks on the xShare Yellow Button and selects the one-time share functionality.
 2. Visualises and selects the health data available to share and creates a static document.
 3. *(optional) Configures the xShare Yellow Button share options:*
     1. *Data transformation: anonymisation, translation, and digital signature.*
     2. *Data format: EEHRxF and the original data in human readable format.*
-4. Citizen requests a shareable link available for a configurable period of time.
-5. Citizen provides the shareable link to the Authorised Data Recipient.
+4. Natural Person requests a shareable link available for a configurable period of time.
+5. Natural Person provides the shareable link to the Authorised Data Recipient.
 6. Authorised Data Recipient accesses/visualises the shared health data and is able to store it.
-7. Citizen notifies the Authorised Data Recipient when new health data is available
-8. Authorised Data Recipient can accesses/visualises the updated Citizen's health data and is able to store it.
+7. Natural Person notifies the Authorised Data Recipient when new health data is available
+8. Authorised Data Recipient can accesses/visualises the updated Natural Person's health data and is able to store it.
 
 The following figure shows the sequence diagram of the Linked options functionality.
 

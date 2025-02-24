@@ -45,6 +45,6 @@ An initial list of related tools is listed in the  [Validation and testing tools
 
 #### EEHRxF Sandboxes
 
-There are several HL7 FHIR public servers that can be used as HL7 FHIR sandboxes. A first list is provided in the HL7 Confulence page [Public Test Servers](https://confluence.hl7.org/spaces/FHIR/pages/35718859/Public+Test+Servers)
+There are several HL7 FHIR public servers that can be used as HL7 FHIR sandboxes. A first list is provided in the HL7 Confluence page [Public Test Servers](https://confluence.hl7.org/spaces/FHIR/pages/35718859/Public+Test+Servers)
 
 In the [HL7 Europe Sandbox](https://sandbox.hl7europe.eu/) a set of links to HAPI based HL7 FHIR Servers customized for supporting some relevant published European FHIR IG is provided.

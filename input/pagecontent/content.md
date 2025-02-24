@@ -7,7 +7,7 @@ The [**data domain**](content.html) describes data models and exchange formats u
 
 This page lists only the implementable specification aginst which the conformance is tested.
 
-A complete list of the Conceptual, Logical and Implementable models and specifications is provided inthe the xBundle registry [xShare Yellow Button - content](https://x-bundles.ehr-exchange-format.eu/xb-1-cnt/content.html).
+A complete list of the Conceptual, Logical and Implementable models and specifications is provided in the the xBundle registry [xShare Yellow Button - content](https://x-bundles.ehr-exchange-format.eu/xb-1-cnt/content.html).
 
 
 ### Implementable specification
@@ -39,12 +39,15 @@ Early implementers might be interested in piloting the following on development 
 *Note: The list of possible download formats will be kept updated.*
 
 
-### Prove conformance
+### Declare and Prove Your Conformance
 
-Comformant product shall be able to pass scrutiny tests against the content guide for which they declare conformance.
+#### Claim Your Conformance
 
-The detailed text cases are described below
+See the [Claim Your Conformance](conformance.html#claim-your-conformance) section.
 
-#### Test cases
+#### Prove Your Conformance
 
-**TO BE COMPLETED**
+See the [Prove Your Conformance](conformance.html#prove-your-conformance) section.
+
+The solution should act as [xShare Yellow Button Content Creator](actors.html#xshare-yellow-button-content-creator) for the type of content declared to be supported and be able to demostrate conformance with what is specified in the 
+[Prove Your Conformance](conformance.html#prove-your-conformance) section.
