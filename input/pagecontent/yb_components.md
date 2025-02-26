@@ -1,50 +1,60 @@
-### xShare Yellow Button reference implementation main components
+### xShare Yellow Button reference implementation
 
-This page outlines the primary logical application components considered in the design of the xShare reference implementation for the xShare Yellow Button.
+This page outlines the the xShare reference implementation for the xShare Yellow Button.
 
 An overview of these main components is illustrated in the following figure.
 
-<div style="text-align: center"> <img src="./button_components.png" alt="xShare Yellow Button main components" title="xShare Yellow Button main components." style="width:100%"/> </div>
+<div style="text-align: center"> <img src="./ReferenceArchitecture.png" alt="xShare Yellow Button reference architecture" title="xShare Yellow Button reference architecture." style="width:100%"/> </div>
 
+Below is a brief description of the key components:
 
-Below is a brief description of the key components and their associated toolbox elements:
+#### Security & privacy layer
+The layer is a gateway to “enter” the Yellow Button infrastructure, ensuring only authorized access to its façades and services. It is tightly connected to the “IAM” and “Consent management” systems enforcing access based on:
+* Yellow button authorization (security) – only recognized and authorized users can access façades and services
+* Patient/citizen authorization (privacy) – PEP (Policy Enforcement Point) ensures that only users with granted consent can access patient’s/citizen’s EEHRxFs
 
-* **Healthcare Infrastructure**: The system boundary defining the domain of the healthcare institution.
-* **Healthcare Infrastructure**
-Defines the system boundary within the healthcare institution’s domain.
-* **Authorization Client (Web Interface or App)**
-Represents the healthcare institution’s system, which lies outside the xShare scope, or a health and wellness app ecosystem that includes an authentication mechanism.
-*  **Upload**
-Enables healthcare institutions or health apps to import EEHRxF data.
-* **Health Information Exchange (HIE)**
-Refers to the institution’s Electronic Health Information Exchange, facilitating appropriate electronic access to health information.
-* **xShare Node**
-The system component developed within the scope of xShare, deployed within the healthcare infrastructure.
-* **Visualization**
-Provides visualization and interaction capabilities for the xShare Yellow Button.
-* **Authorized Data Recipient**
-Represents the authorized healthcare institution, trusted entity, or app with whom health data is shared.
+#### Data management
 
 {:class="table table-bordered"}
-| Component                         | Description | Existing tools |
+| **COMPONENT** | **TYPE** | **DESCRIPTION** |
 | :-------------------------------- |:-----------|:--------------|
-| **xShare Button API**             |Exposes the xShare Yellow Button functionalities to components external to the xShare system. It also exposes the interface that allows and controls the sharing of individual resources with Authorised Data Recipients.  |  |
-| *Orchestrator*                    | 	Orchestrates the xShare Button API, interacting with the different components when needed. | |
-| *Health Record Manager*           | Directly accesses a resource in the proposed exchange format (or in a non-EEHRxF format accompanied with a clear specification or implementation guide). | |
-| **Interoperability Component**    | Provide a conversion between the healthcare record's format and the EEHRxF. |  |
-| *Validator*                       | Tests if the healthcare institution health record is conformant with the EEHRxF FHIR format. |FHIR validators & EEHRxF validator |
-| *EEHRxF FHIR mapping*             | Converts between the healthcare record's "native" format and the EEHRxF FHIR format. | CDA2FHIR |
+| **PATIENT DATA** Façade/API  | The main API, the starting point, exposing patient/citizen EEHRxFs to herself, so she can see what is available and decide what to do with data |
+| **DOWNLOAD** | Façade/API | The API allowing patient/citizen to download data in: computable format (EEHRxF FHIR and EEHRxF CDA); human readable format (HTML, PDF); translated in one of supported languages |
+| **SHARE** | Façade/API | The API enabling patient/citizen to share her EEHRxFs |
+| **DATA ACCESS** | Service | The main service, an coordinator of actions available in “Data management”: Retrieving EEHRxF from integrated data sources; Caching and retrieving EEHRxFs acting as IHE MHD Document Source & Document Consumer actors; Auditing events happening within “Data management”; Administering share mechanism and consent granting |
+| **VISUALIZATION** | Service | The service for creation of human readable instance of EEHRxF in HTML and/or PDF format |
+| **TRANSFORMING** | Service | The service transforming EEHRxF from FHIR to CDA format and vice versa |
 | **Data Transformation**           | Provides the generally defined functionality for modifying the selected resource format. This includes (pseudo) anonymisation, translation, password protection, and digital signature. |  |
-| *Format Converter*                | Converts the EEHRxF to human readable format. | FHIR PDF converter |
-| *(pseudo) Anonymisation*          | The operation will strip the selected data of any identifiable information. |  |
-| *Translation*                     | The operation will translate the selected data to a selected language. | PATHeD & UNICOM |
-| *Password Protection*             | The operation will protect the selected data with a citizen defined password. |  |
-| *Digital Signature*               | The operation digital signs the selected data. |  |
-| **Sharing Component**             | This component is used to manage the xShare Yellow Button sharing operations. |  |
-| *Sharing Manager*                 | 	Allows the establishment and revocation of sharing rules within the system. It will also respond to queries regarding a resource sharing status. | Smart Health Links |
-| *Cache*                           | Temporarily stores data related to the sharing component. |  |
-| **Auditing Component**            | This component is used to record auditable events. |  |
-| *Logging*                         | Records all the operations executed within the Button API. | Apache, nginx |
-| *Storage*                         | 	A data storage solution to provide resilience. |MariaDB, postgresql |
+| **ANONYMIZATION** | Service | The service anonymizing EEHRxF data points before sharing |
 
-*Table 1: xShare Yellow Button and its toolbox components.*
+*Table 1: xShare Yellow Button reference architecture.*
+
+#### IAM
+The Identity and Access Management is a system that enables authorized access to users. It does this via integrations with existing IdPs (Identity providers), rather than maintaining users’ accounts own its own.
+It is not yet defined, but it will probably offer service which utilizes OpenID Connect (OAuth2) and IHE IUA profile.
+
+#### Consent management
+The Consent management is a system which supports access control (privacy) by enabling management of patient/citizen consents (PAP – Policy Administration Point) and by providing computable decisions allowing or forbidding access (PDP – Policy Decision Point).
+
+#### Storage
+
+##### Data repository
+The Data repository is a repository of EEHRxFs and it is used as a caching mechanism which will prevent over utilization of clinical data sources and thus prevent the Yellow Button users to abuse infrastructures used for direct care.
+Because EEHRxF are clinical documents, the repository exposes itself as standard IHE profile actors MHD Document Recipient & MHD Document Responder.
+
+##### Audit log repository
+The Audit record repository is a repository storing and maintaining audit logs, the logs collecting information who access what, when and for which purpose. Logs are meant to be available for patient/citizen and information security officer to check if access was enforced properly.
+
+##### Consent repository
+The consent repository maintains access policies and their instances (consents) that patient/citizen granted during utilization of share services.
+
+#### Connectors
+
+##### MyHealth@EU via NCPeH
+tbd
+
+##### Smart links
+tbd
+
+##### TBD (e.g., HL7 IPA)
+tbd
