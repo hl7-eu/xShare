@@ -63,7 +63,7 @@ Early implementers might be interested in piloting the following on development 
 
 #### Claim Your Conformance
 
-To claim conformance with the xShare Yellow Button Download, implementers must issue a conformance statement specifying the content specifications and the optional features supported (e.g. additional download formats, password protected content, psuedoanonymized data;...).
+To claim conformance with the xShare Yellow Button Download, implementers must issue a [conformance statement](conf-statement.html) specifying the content specifications and the optional features supported (e.g. additional download formats, password protected content, psuedoanonymized data;...).
 
 ---
 

@@ -56,7 +56,7 @@ The linked option functionality enables the citizen to share their health data (
 
 #### Claim Your Compliance
 
-To claim compliance the application level rules specified in this page, xShare Yellow Button implementers must issue a conformance statement in accordance with the indications of the [Claim Your Conformance](conformance.html#claim-your-conformance) section.
+To claim compliance the application level rules specified in this page, xShare Yellow Button implementers must issue a [conformance statement](conf-statement.html) in accordance with the indications of the [Claim Your Conformance](conformance.html#claim-your-conformance) section.
 
 #### Prove Your Compliance
 

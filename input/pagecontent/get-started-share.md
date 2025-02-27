@@ -80,7 +80,7 @@ Acting as [**xShare Yellow Button Link Consumer**](actors.html#xshare-yellow-but
 
 #### Claim Your Conformance
 
-To claim conformance with the xShare Yellow Button One-time Share, implementers must issue a conformance statement specifying the content specifications and the optional features supported (e.g. additional download formats, password protected content, psuedoanonymized data;...).
+To claim conformance with the xShare Yellow Button One-time Share, implementers must issue a [conformance statement](conf-statement.html) specifying the content specifications and the optional features supported (e.g. additional download formats, password protected content, psuedoanonymized data;...).
 
 ---
 

@@ -1,6 +1,6 @@
 #### Claim Your Conformance
 
-To claim conformance with the xShare Yellow Button implementers must issue a conformance statement specifying:
+To claim conformance with the xShare Yellow Button implementers must issue a [conformance statement](conf-statement.html) specifying:
 * The features realized (download, one-time share, linked option)
 * The roles played ( see [xShare Yellow Button Components](actors.html) )
 * The options supported
