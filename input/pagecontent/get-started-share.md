@@ -61,7 +61,7 @@ Early implementers might be interested in piloting the following on development 
 |------|-------------|-------------|
 | <img src="prescription.png" alt="Medicine Prescription and Dispense icon" style="width:30px; vertical-align:middle;"> | [Medicine Prescription and Dispense](https://x-bundles.ehr-exchange-format.eu/mpd-content/content.html) | [HL7 EU Medication Prescription and Dispense FHIR IG v0.1.0-ci-build](https://build.fhir.org/ig/hl7-eu/mpd/)
 |------|-------------|-------------|
-| <img src="radiology.png" alt="Digital Imaging Report icon" style="width:30px; vertical-align:middle;"> | [Digital Imaging Report](https://x-bundles.ehr-exchange-format.eu/dir-content/content.html) | 
+| <img src="radiology.png" alt="Digital Imaging Report icon" style="width:30px; vertical-align:middle;"> | [Digital Imaging Report](https://x-bundles.ehr-exchange-format.eu/dir-content/content.html) | [HL7 EU Imaging Report FHIR IG v0.1.0-ci-build](https://build.fhir.org/ig/hl7-eu/imaging/)
 |------|-------------|-------------|
 
 #### Smart Health Link specifications

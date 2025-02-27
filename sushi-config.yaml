@@ -72,6 +72,8 @@ pages:
     title: Get Started with the xShare Yellow Button One-time Share
   conformance.md:
     title: Declare and Prove Your Conformance
+  conf-statement.md:
+    title: Conformance Statement (example)
 
 #  implementation.md:
 #    title: Implementation Considerations
@@ -119,6 +121,7 @@ menu:
     Overview: technical.html
     Actors: actors.html
     Conformance: conformance.html
+    Example Conformance Statement: conf-statement.html
     Reference Tools: yb_tools.html  
   X-Bundle registry: https://x-bundles.ehr-exchange-format.eu/
   About: about.html
