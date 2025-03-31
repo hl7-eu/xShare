@@ -49,6 +49,8 @@ Early implementers might be interested in piloting the following on development 
 
 |  | xBundle  | HL7 FHIR IG |
 |------|-------------|-------------|
+| <img src="medical-app.png" alt="Patient Summary icon" style="width:30px; vertical-align:middle;"> | [Patient Summary](https://x-bundles.ehr-exchange-format.eu/ps-content/content.html) | [HL7 Europe Patient Summary FHIR IG (0.1.0-ci-build)](https://build.fhir.org/ig/hl7-eu/eps)
+|------|-------------|-------------|
 | <img src="hospital.png" alt="Hospital Discharge Report icon" style="width:30px; vertical-align:middle;"> | [Hospital Discharge Report](https://x-bundles.ehr-exchange-format.eu/hdr-content/content.html) | [HL7 Europe Hospital Discharge Report FHIR IG (0.1.0-ci-build)](https://build.fhir.org/ig/hl7-eu/hdr)
 |------|-------------|-------------|
 | <img src="prescription.png" alt="Medicine Prescription and Dispense icon" style="width:30px; vertical-align:middle;"> | [Medicine Prescription and Dispense](https://x-bundles.ehr-exchange-format.eu/mpd-content/content.html) | [HL7 EU Medication Prescription and Dispense FHIR IG v0.1.0-ci-build](https://build.fhir.org/ig/hl7-eu/mpd/)
@@ -78,7 +80,7 @@ A system conformant to the xShare Yellow Button Download feature must:
 1. Ensure that the download content is available in the selected target format.
 
 
-*Detailed test cases are described [here]*
+**
 
 ---
 

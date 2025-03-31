@@ -57,12 +57,15 @@ Early implementers might be interested in piloting the following on development 
 
 |  | xBundle  | HL7 FHIR IG |
 |------|-------------|-------------|
+| <img src="medical-app.png" alt="Patient Summary icon" style="width:30px; vertical-align:middle;"> | [Patient Summary](https://x-bundles.ehr-exchange-format.eu/ps-content/content.html) | [HL7 Europe Patient Summary FHIR IG (0.1.0-ci-build)](https://build.fhir.org/ig/hl7-eu/eps)
+|------|-------------|-------------|
 | <img src="hospital.png" alt="Hospital Discharge Report icon" style="width:30px; vertical-align:middle;"> | [Hospital Discharge Report](https://x-bundles.ehr-exchange-format.eu/hdr-content/content.html) | [HL7 Europe Hospital Discharge Report FHIR IG (0.1.0-ci-build)](https://build.fhir.org/ig/hl7-eu/hdr)
 |------|-------------|-------------|
 | <img src="prescription.png" alt="Medicine Prescription and Dispense icon" style="width:30px; vertical-align:middle;"> | [Medicine Prescription and Dispense](https://x-bundles.ehr-exchange-format.eu/mpd-content/content.html) | [HL7 EU Medication Prescription and Dispense FHIR IG v0.1.0-ci-build](https://build.fhir.org/ig/hl7-eu/mpd/)
 |------|-------------|-------------|
 | <img src="radiology.png" alt="Digital Imaging Report icon" style="width:30px; vertical-align:middle;"> | [Digital Imaging Report](https://x-bundles.ehr-exchange-format.eu/dir-content/content.html) | [HL7 EU Imaging Report FHIR IG v0.1.0-ci-build](https://build.fhir.org/ig/hl7-eu/imaging/)
 |------|-------------|-------------|
+
 
 #### Smart Health Link specifications
 Acting as [**xShare Yellow Button Link Provider**](actors.html#xshare-yellow-button-link-provider):
@@ -95,7 +98,7 @@ A system conformant to the xShare Yellow Button One-time Share feature must:
 1. Ensure that content authorised for sharing (the SHL Manifest) is available in the selected target format when the authorised data recipient accesses the Smart Health Link.
 1. The SHL Manifest passes the validation tests for each of the declared supported content specifications (e.g., Patient Summary, Laboratory Results).
 
-*Detailed test cases are described [here]*
+**
 
 ---
 

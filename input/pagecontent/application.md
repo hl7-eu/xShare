@@ -1,5 +1,5 @@
 
-The **application domain** describes what are the logical (software) components involved in the [yellow button business processes](business.html#business-service-and-processes) and how they interact, collaborate or are coordinated. 
+The **application domain** describes what are the logical (software) components involved in the [yellow button business processes](business.html) and how they interact, collaborate or are coordinated. 
 
 <div>
 <p> </p>

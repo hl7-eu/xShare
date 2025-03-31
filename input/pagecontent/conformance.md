@@ -25,7 +25,6 @@ To prove conformance to the *xShare Yellow Button Download* as *xShare Yellow Bu
 1. Show that users are enabled to receive and access health information - as listed in the [Yellow Button Information view](content.html) page - through SMART Health Links.
 1. Pass validation tests for each of the declared supported content specifications (e.g., Patient Summary, Laboratory Results).
 
-*Detailed test cases are described [here]*
 
 #### One-time share
 
@@ -36,7 +35,7 @@ To prove conformance to the *xShare Yellow Button One-time* as *Authorised Data 
 1. Show that users are enabled to receive and access health information - as listed in the [Yellow Button Information view](content.html) page - through SMART Health Links.
 1. Demonstrate that the retrieved health data - if belongng to one of the supported content specifications (e.g., Patient Summary, Laboratory Results) - can be properly processed (e.g displayed).
 
-*Detailed test cases are described [here]*
+**
 
 
 #### Linked options

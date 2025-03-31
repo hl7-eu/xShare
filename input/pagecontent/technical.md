@@ -15,8 +15,8 @@ Technical standards, specifications, and security considerations are documented 
 
 The diagram highlights (in yellow) the roles (i.e. the participants) that Yellow Button implementers can claim conformance to:
 
-* The *xShare Yellow Button Provider*. It implements the [xShare Yellow Button](application.html#the-yellowb-button-participants) application role.
-* The *xShare Yellow Button Consumer*.  It implements the [Authorised Data Recipient](application.html#the-yellowb-button-participants) application role.
+* The *xShare Yellow Button Provider*. It implements the [xShare Yellow Button](application.html#the-yellow-button-participants) application role.
+* The *xShare Yellow Button Consumer*.  It implements the [Authorised Data Recipient](application.html#the-yellow-button-participants) application role.
 
 More details about these roles (actors in the IHE world) are documented in the [xShare Yellow Button Participants](actors.html) page.
 
