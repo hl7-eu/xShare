@@ -1,0 +1,14 @@
+{
+  "package-id" : "hl7.eu.fhir.xshare-yb",
+  "version" : "0.1.0",
+  "path" : "http://hl7.eu/fhir/ig/xshare-yb/0.1.0",
+  "status" : "trial-use",
+  "sequence" : "Release 1",
+  "first": true,
+  "mode": "milestone",
+  "ci-build": "https://build.fhir.org/ig/hl7-eu/xShare",
+  "desc" : "First trial implementation release",
+  "title" : "xShare Project Yellow Button Implementation Guide",
+  "category" : "EHDS",
+  "introduction" : "xShare envisions everyone sharing their health data in European Electronic Health Record Exchange Format (EEHRxF) with a click-of-a-button - the xShare yellow button - to be featured across health portals and patient apps, allowing people to exercise their data portability rights under GDPR."
+}
