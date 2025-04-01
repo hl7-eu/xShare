@@ -2,8 +2,9 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd" lang="en">
 
   <blockquote class="dragon">
-    <p>The specification herewith documented is a working specification. 
-    No liability can be inferred from the use or misuse of this specification, or its consequences.</p>
+    <p>This specification is subject to continuous maintenance.</p>
+    <p>Revisions and extensions may be introduced over time, including updates to the business scenarios and to the reference technical specification.</p>
+    <p><b>Readers should be aware that changes may occur and are encouraged to stay informed about the latest developments.</b></p>
   </blockquote>
 
   <a name="scope"></a>
