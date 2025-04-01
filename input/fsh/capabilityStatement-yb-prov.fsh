@@ -1,6 +1,6 @@
 Instance: capabilityStatement-yb-provider
 InstanceOf: CapabilityStatement
-Title: "XShare Yellow Button Provider Capability Statement"
+Title: "xShare Yellow Button Provider Capability Statement"
 Description: "Defines the capabilities of an xShare Yellow Button Provider, responsible for producing FHIR Document Bundles for download or sharing via Smart Health Links."
 Usage: #definition
 

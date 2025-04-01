@@ -1,6 +1,6 @@
 Instance: capabilityStatement-yb-consumer
 InstanceOf: CapabilityStatement
-Title: "XShare Yellow Button Consumer Capability Statement"
+Title: "xShare Yellow Button Consumer Capability Statement"
 Description: "Defines the capabilities of an xShare Yellow Button Consumer, which can retrieve and interpret FHIR Document Bundles obtained via download or Smart Health Links."
 Usage: #definition
 

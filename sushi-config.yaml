@@ -119,9 +119,9 @@ menu:
     Reference implementation: yb_components.html
   Technology: 
     Overview: technical.html
-    Actors: actors.html
-    Conformance: conformance.html
     Artefacts: artifacts.html
+    Actors: actors.html
+    Conformance: conformance.html    
     Example Conformance Statement: conf-statement.html
     Reference Tools: yb_tools.html  
   X-Bundle registry: https://x-bundles.ehr-exchange-format.eu/
