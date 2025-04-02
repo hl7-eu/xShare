@@ -19,9 +19,9 @@ For this version of the xShare Yellow Button **the only technical specifications
 |------|-------------|-------------|
 | <img src="medical-app.png" alt="Patient Summary icon" style="width:30px; vertical-align:middle;"> | [Patient Summary](https://x-bundles.ehr-exchange-format.eu/ps-content/content.html) | [HL7 International Patient Summary FHIR IG v1.1.0](https://hl7.org/fhir/uv/ips/)
 |------|-------------|-------------|
-| <img src="experiment-results.png" alt="Laboratory Report icon" style="width:30px; vertical-align:middle;"> | [Laboratory Report](https://x-bundles.ehr-exchange-format.eu/lab-rpt-content/content.html) | [HL7 Europe Laboratory Report FHIR IG v0.1.0](http://hl7.eu/fhir/laboratory)
+| <img src="experiment-results.png" alt="Laboratory Report icon" style="width:30px; vertical-align:middle;"> | [Laboratory Report](https://x-bundles.ehr-exchange-format.eu/lab-rpt-content/content.html) | [HL7 Europe Laboratory Report FHIR IG v0.1.1](http://hl7.eu/fhir/laboratory)
 |------|-------------|-------------| 
-| <img src="experiment-results.png" alt="MyHealth@EU Laboratory Report icon" style="width:30px; vertical-align:middle;"> | [MyHealth@EU Laboratory Report](https://x-bundles.ehr-exchange-format.eu/myh-eu-lab-cnt/content.html) | [MyHealth@EU Laboratory Report FHIR IG	v0.1.0](https://fhir.ehdsi.eu/laboratory)
+| <img src="experiment-results.png" alt="MyHealth@EU Laboratory Report icon" style="width:30px; vertical-align:middle;"> | [MyHealth@EU Laboratory Report](https://x-bundles.ehr-exchange-format.eu/myh-eu-lab-cnt/content.html) | [MyHealth@EU Laboratory Report FHIR IG v0.1.1](https://fhir.ehdsi.eu/laboratory)
 
 
 Early implementers might be interested in piloting the following on development specifications

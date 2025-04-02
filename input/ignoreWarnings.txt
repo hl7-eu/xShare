@@ -1,10 +1,6 @@
 == Suppressed Messages ==
 
-# No schematrons available for Logical Models
+# Deprecated ValueSet
 
-The link 'StructureDefinition-Patient.sch' for "Schematron" cannot be resolved
-The link 'StructureDefinition-LabelConcept.sch' for "Schematron" cannot be resolved
-The link 'StructureDefinition-PersonName.sch' for "Schematron" cannot be resolved
-The link 'StructureDefinition-conformance-cen-ips-examples.html' for "Examples" cannot be resolved
-The link 'StructureDefinition-conformance-cen-ips-examples.html' for "Examples" cannot be resolved
+Reference to deprecated ValueSet http://hl7.org/fhir/5.0/ValueSet/jurisdiction|5.0.0
 
