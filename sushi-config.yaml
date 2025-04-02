@@ -21,7 +21,9 @@ publisher:
 #
 dependencies:
   hl7.fhir.uv.ips: 1.1.0
-  hl7.fhir.uv.smart-health-cards-and-links: 1.0.0-ballot 
+  hl7.fhir.uv.smart-health-cards-and-links: 1.0.0-ballot
+  hl7.fhir.eu.laboratory: 0.1.x
+  myhealth.eu.fhir.laboratory: 0.1.1
 #  hl7.fhir.extensions.r5: 4.0.1
 #   hl7.fhir.us.mcode:
 #     id: mcode
