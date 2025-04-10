@@ -71,7 +71,7 @@ To claim conformance with the xShare Yellow Button Download, implementers must i
 
 #### Prove Your Conformance
 
-A system conformant to the xShare Yellow Button Download feature must:
+A system conformant to the xShare Yellow Button Download feature - as provider - must:
 
 1. Demonstrate that only authenticated Natural Persons can access the xShare Yellow Button Download feature.
 1. Claim that user autentication is realized in conformance with the European Regulations
@@ -80,6 +80,12 @@ A system conformant to the xShare Yellow Button Download feature must:
 1. Ensure that the download content is available in the selected target format.
 
 ---
+
+A system conformant to the xShare Yellow Button Download feature - as consumer - must:
+
+1. Demonstrate that is able to 'consume' (e.g. display, import,...) any of the declared supported content specifications (e.g., Patient Summary, Laboratory Results).
+
+
 
 ### Label Your System
 

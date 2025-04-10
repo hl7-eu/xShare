@@ -89,7 +89,7 @@ To claim conformance with the xShare Yellow Button One-time Share, implementers 
 
 #### Prove Your Conformance
 
-A system conformant to the xShare Yellow Button One-time Share feature must:
+A system conformant to the xShare Yellow Button One-time Share feature - as provider - must:
 
 1. Demonstrate that only authenticated Natural Persons can access the xShare Yellow Button One-time Share feature.
 1. Claim that user autentication is realized in conformance with the European Regulations
@@ -99,6 +99,13 @@ A system conformant to the xShare Yellow Button One-time Share feature must:
 1. The SHL Manifest passes the validation tests for each of the declared supported content specifications (e.g., Patient Summary, Laboratory Results).
 
 ---
+
+A system conformant to the xShare Yellow Button One-time Share feature - as consumer - must:
+
+1. Ensure that is able to process a valid Smart Health Link.
+1. Demonstrate that can accesses the content authorised for sharing (the SHL Manifest), available in the selected target format.
+1. Show that is able to 'consume' (e.g. display, import,...) any of the declared supported content specifications (e.g., Patient Summary, Laboratory Results).
+
 
 ### Label Your System
 
