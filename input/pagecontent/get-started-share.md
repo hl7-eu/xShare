@@ -89,22 +89,22 @@ To claim conformance with the xShare Yellow Button One-time Share, implementers 
 
 #### Prove Your Conformance
 
-A system conformant to the xShare Yellow Button One-time Share feature - as provider - must:
+To prove conformance to the *xShare Yellow Button One-time* as [*xShare Yellow Button Provider*](ActorDefinition-actorDefinition-yb-provider.html) you must:
 
 1. Demonstrate that only authenticated Natural Persons can access the xShare Yellow Button One-time Share feature.
 1. Claim that user autentication is realized in conformance with the European Regulations
 1. Demonstrate that (only) authenticated Natural Persons can search for and select the documents or data they wish to share.
 1. Demonstrate that a valid Smart Health Link is generated.
 1. Ensure that content authorised for sharing (the SHL Manifest) is available in the selected target format when the authorised data recipient accesses the Smart Health Link.
-1. The SHL Manifest passes the validation tests for each of the declared supported content specifications (e.g., Patient Summary, Laboratory Results).
+1. The SHL Manifest passes the validation tests for each of the declared supported content specifications (e.g., Patient Summary, Laboratory Results), as listed in the [Yellow Button Information view](content.html) page.
 
 ---
 
-A system conformant to the xShare Yellow Button One-time Share feature - as consumer - must:
+To prove conformance to the *xShare Yellow Button One-time* as [*xShare Yellow Button Consumer*](ActorDefinition-actorDefinition-yb-consumer.html) you must:
 
 1. Ensure that is able to process a valid Smart Health Link.
 1. Demonstrate that can accesses the content authorised for sharing (the SHL Manifest), available in the selected target format.
-1. Show that is able to 'consume' (e.g. display, import,...) any of the declared supported content specifications (e.g., Patient Summary, Laboratory Results).
+1. Show that is able to 'consume' (e.g. display, import,...) any of the declared supported content specifications (e.g., Patient Summary, Laboratory Results), as listed in the [Yellow Button Information view](content.html) page.
 
 
 ### Label Your System
